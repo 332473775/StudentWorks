@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teachers</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="css/public.css" type="text/css">
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+	<link rel="stylesheet" href="css/home.css" type="text/css">
+</head>
+<body>
+	<header id="header">
+		<div class="container clear-fix">
+			<div class="logo fl">
+				<img src="images/courses&teachers/logo.jpg" alt="">
+				<span>讯科教育</span>
+			</div>
+			<div class="home fr">
+				<a id="home" href="index.html">
+					<img src="images/courses&teachers/login.jpg" alt="">
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<nav id="nav" class="clear-fix">
+		<ul>
+			<li><a id="employment" >就业</a></li>
+			<li><a id="course" >课程</a></li>
+			<li><a id="teachers">师资</a></li>
+			<li><a id="classroom" >课堂</a></li>
+			<li><a id="we" >我们</a></li>
+		</ul>
+	</nav>
+
+	<iframe id="ifm" align="top" hspace="0" vspace="0"  width="100%" marginheight=0 marginwidth=0 style="margin:0;padding:0;border:none;" scrolling="no"  src='index_section.html'></iframe>
+	
+	<footer id="footer">
+		<div class="company">
+			福州市讯科教育科技有限公司
+			<div class="link">
+				<a href="javascript:;">企业介绍</a>|
+				<a href="javascript:;">业务范围</a>|
+				<a href="javascript:;">联系我们</a>
+			</div>
+
+		</div>	
+	</footer>
+	
+	<!--<script src="js/zepto.min.js"></script>
+	<script src="js/zepto.fx.js"></script>
+	<script src="js/zepto.fn.js"></script>
+	<script src="js/touch.js"></script> -->
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+    $(function () {
+        $("#ifm").load(function () {
+    			var mainheight = $(this).contents().find("body").height() ;
+    			$(this).height(mainheight);
+    			$(this).css({
+    				'border-width':0+'px'
+    			})
+		});
+    })
+	</script>
+	
+	<!--<script>
+		var oAdd = $('.add');
+		oAdd.singleTap(function(){
+			$(this).siblings('div').toggle();
+			 $("#ifm").load();
+		});
+	</script>-->
+	
+	<script>
+		$('#home').click(function(){
+			$("#ifm").attr('src','index_section.html');
+		
+			
+		});
+		$('#employment').click(function(){
+			$("#ifm").attr('src','employment.html');
+			$('#nav li a').removeClass('active');
+			$(this).addClass('active');
+			
+		});
+		$('#course').click(function(){
+			$("#ifm").attr('src','course.html');
+			$('#nav li a').removeClass('active');
+			$(this).addClass('active');
+		});
+		$('#teachers').click(function(){
+			$("#ifm").attr('src','teachers.html');
+			$('#nav li a').removeClass('active');
+			$(this).addClass('active');
+		});
+		$('#classroom').click(function(){
+			$("#ifm").attr('src','classroom.html');
+			$('#nav li a').removeClass('active');
+			$(this).addClass('active');
+		});
+		$('#we').click(function(){
+			$('#ifm').attr('src','we.html');
+			$('#nav li a').removeClass('active');
+			$(this).addClass('active');
+		});
+	</script>
+</body>
+</html>

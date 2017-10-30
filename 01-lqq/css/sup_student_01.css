@@ -1,0 +1,76 @@
+@charset "UTF-8"
+html{
+	font-size:16px;
+}
+a{
+	text-decoration: none;
+}
+#nav ul li:nth-child(1) a{
+		color:#0953B7;
+		border-bottom:3px solid #1768ba;
+	}
+
+#content{
+	width:90%;
+	margin:0 auto;}
+
+	#content .text{
+		position: relative;
+		text-align: center;
+		line-height: 2.5rem;
+	}
+	.text span{
+		color:#666666;
+		display: inline-block;
+		background-color: #fff;
+		z-index: 999;
+		z-index: 999;
+	}
+	.text p{
+		width:5rem;
+		height:2px;
+		background-color: #ddd;
+		display: inline-block;
+		box-sizing: border-box;
+		margin:0.2rem 0.6rem;
+	}
+	
+	.sup_student_01{
+		padding-top: 1rem;
+	}	
+	.sup_student_01 img{
+		width:8rem;
+		height:auto;
+		float: left;
+		margin-right: 1rem;
+	}
+	.sup_student_01 ul li{
+		font-size: 0.875rem;
+		line-height: 1.6rem;
+	}
+	.sup_student_01 ul li:nth-child(1),.sup_student_01 ul li:nth-child(2),.sup_student_01 ul li:nth-child(3){
+		text-indent: 2rem;
+	}
+
+	.self_introduction,.stu_sentiment{
+		background-color: #ECF7FF;
+	}
+	.self_introduction p,.stu_sentiment p{
+		text-indent: 2rem;
+		line-height: 1.6rem;
+		color:#5B5D60;
+	}
+	.turnpage{
+		padding:0.7rem 0;
+		font-size: 0.875rem;
+	}
+	.turnpage a{
+		color:#5B5D60;
+	}
+	.turnpage a:nth-child(1){
+		/*color:#A7A7A7;*/
+		float: left;
+	}
+	.turnpage a:nth-child(2){
+		float: right;
+	}
