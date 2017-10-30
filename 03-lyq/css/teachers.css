@@ -1,0 +1,239 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+}
+.content .content-text2 {
+	line-height: 49px;
+	position: relative;
+}
+.content .content-text2 .line11{
+	border: 1px solid #BBBBBB;
+    display: block;
+    width:18%;
+    position: absolute;
+    top: 24px;
+    left: 70px;
+}
+.content .content-text2 .line22{
+	font-size: 20px;
+    display: inline-block;
+    padding-left: 40%;
+    font-weight: bold;
+}
+.content .content-text2 .line33{
+    border: 1px solid #BBBBBB;
+    display: block;
+    width: 18%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 72px;
+}
+.content .text-p{
+    background: #F4F8FB;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.content .text-p p{
+    margin:0px;
+    line-height: 30px;
+    text-indent: 2rem;
+    font-size: 0.89rem;
+}
+.content .content-pic ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.content .content-pic ul li{
+    display: inline-block;
+    width: 22%;
+}
+.content .content-pic ul li img{
+    width: 90%;
+    border: 1px solid;
+    border-radius: 100%;
+}
+.content .content-pic ul li p{
+	margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.89rem;
+}
+.content .content-people{
+	background: url(../images/pyramid.jpg) no-repeat;
+    height: 180px;
+    margin-left: 17%;
+    margin-top: 2%;
+    background-size: 210px;
+    position: relative
+}
+.content .content-people .p1{
+    position: absolute;
+    font-size: 17px;
+    color: #93D381;
+    left: -41px;
+    top: 14px;
+    margin: 0px;
+}
+.content .content-people .dp1{
+	display: block;
+    border: 1px solid;
+    width: 6%;
+    position: absolute;
+    top: 23px;
+}
+.content .content-people .p2 {
+    position: absolute;
+    font-size: 17px;
+    color: #F7CD5E;
+    left: -41px;
+    top: 48px;
+    margin: 0px;
+}
+.content .content-people .dp2{
+	display: block;
+    border: 1px solid;
+    width: 13%;
+    position: absolute;
+    top: 57px;
+    left: 2px;
+}
+.content .content-people .p3 {
+    position: absolute;
+    font-size: 17px;
+    color: #66CDFD;
+    left: -41px;
+    top: 84px;
+    margin: 0px
+}
+.content .content-people .dp3{
+	display: block;
+    border: 1px solid;
+    width: 19%;
+    position: absolute;
+    top: 93px;
+    left: 2px;
+}
+.content .content-people .p4 {
+    position: absolute;
+    font-size: 17px;
+    color: #F4968C;
+    left: -41px;
+    top: 122px;
+    margin: 0px;
+}
+.content .content-people .dp4{
+	display: block;
+    border: 1px solid;
+    width: 26%;
+    position: absolute;
+    top: 131px;
+    left: 2px;
+}
+.content .content-people .p5{
+	position: absolute;
+    right: 23px;
+    top: 12px;
+    font-size: 13px;
+    margin: 0px;
+}
+.content .content-people .dp5{
+    display: block;
+    border: 1px solid;
+    width: 4%;
+    position: absolute;
+    top: 19px;
+    right: 140px;
+    
+}
+.content .content-people .p6{
+	position: absolute;
+    right: 24px;
+    top: 50px;
+    font-size: 13px;
+    margin: 0px;
+}
+.content .content-people .dp6{
+    display: block;
+    border: 1px solid;
+    width: 7%;
+    position: absolute;
+    top: 56px;
+    right: 155px;
+}
+.content .content-people .p7{
+	position: absolute;
+    right: 25px;
+    top: 87px;
+    font-size: 13px;
+    margin: 0px;
+}
+.content .content-people .dp7{
+    display: block;
+    border: 1px solid;
+    width: 4%;
+    position: absolute;
+    top: 93px;
+    right: 189px;
+}
+.content .content-people .p8{
+	position: absolute;
+    right: 20px;
+    top: 113px;
+    font-size: 13px;
+}
+.content .content-people .dp8{
+    display: block;
+    border: 1px solid;
+    width: 3%;
+    position: absolute;
+    top: 133px;
+    right: 220px;
+}
+.content .content-people .p9{
+	position: absolute;
+    top: 145px;
+    left: 71px;
+    font-size: 17px;
+}
+.content .content-add{
+    margin-left: 6%;
+    margin-right: 5%;
+}
+.content .content-add div{
+	background-color: #F1F1F1;
+	line-height: 35px;
+	padding-left: 2%;
+	color: #333333;
+	margin-bottom: 10px;
+
+}
+.content .content-add p{
+	margin: 0px;
+    font-size: 0.82rem;
+    padding-right: 9%;
+    background-color: #F4F4F4;
+    line-height: 17px;
+    padding-top: 2%;
+    color: #333333;
+    display: none;
+}
+.content .content-add img{
+	width: 9%;
+    position: absolute;
+    right: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
