@@ -1,0 +1,64 @@
+.banner img{
+	width: 100%;
+	height: auto;
+}
+.section1 .section-text{
+	background: #F4F8FB;
+	padding: 1rem;
+	text-align: left;
+}
+.section1 p{
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+	text-indent: 2rem;
+}
+.section2 .section-text{
+	background: #fff;
+}
+.section3 .section-text{
+	background: #238AF3;
+}
+.section3 ul{
+	box-sizing: border-box;
+	 overflow: hidden;
+	 padding: 2% 3%;
+}
+.section3 ul li{
+	width: 50%;
+	display:block;
+	float: left;
+	text-align: left;
+}
+.section3 a{
+	padding-left: 2px;
+	display: inline-block;
+	font-size: 0.7rem;
+	line-height: 1rem;
+	color: #fff;
+	text-align: left;
+}
+.section3 .icon{
+	display: inline-block;
+	width:1rem;
+	height:1rem;
+	border-radius: 50%;
+	background: #fff;
+	vertical-align: middle;
+	margin-left: 2px;
+}
+.section3 li:nth-child(1) .icon{
+	background: url(../images/icon_tel.png)no-repeat center;
+	background-size: contain;
+}
+.section3 li:nth-child(2) .icon{
+	background: url(../images/icon_qq.png)no-repeat center;
+	background-size: contain;
+}
+.section3 li:nth-child(3) .icon{
+	background: url(../images/icon_ima.png)no-repeat center;
+	background-size: contain;
+}
+.section3 li:nth-child(4) .icon{
+	background: url(../images/icon_home.png)no-repeat center;
+	background-size: contain;
+}

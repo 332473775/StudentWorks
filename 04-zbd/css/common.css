@@ -1,0 +1,227 @@
+@charset "UTF-8"
+html{
+	font-size: 16px;
+	color: #333;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	line-height: 1.0rem;
+	background-color: #1768BB;
+	color: #fff;
+	padding:2% 4%;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-size:1.2rem;
+}
+.header img{
+	width:30px; 
+}
+.header .logo_home a{
+	display: block;
+}
+.logo{ 
+	height: 80%;
+	float: left;
+}
+.title{
+	float: left;
+	padding-left: 0.5rem;
+	line-height: 1.7rem;
+}
+.logo_home{
+	width:30px;
+	float: right;
+	height: 80%;
+}
+.nav{
+	width: 100%;
+	background: #EDEDED;
+	 
+}
+.nav ul{
+	overflow: hidden;
+}
+.nav ul li{
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	text-align: center;
+    padding: 0.5rem 0;
+	
+}
+.nav ul li.active{
+	border-bottom: 4px solid  #1768BB;
+}
+.nav ul li.active a{
+	color:  #1768BB;
+}
+.nav a{
+	color: #000;
+}
+.section{
+	text-align: center;
+}
+.section h2{
+	display: inline-block;
+	position: relative;
+	background: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1em;
+	// text-align: center;
+
+}
+.section h2:before,.section h2:after{
+	content: "";
+	width:3rem;
+	height: 2px;
+	background: #BABABA;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.section h2:before{
+	left: -60px;
+}
+.section h2:after{
+	right: -60px;
+}
+
+.section .section-text{
+	background: #F2F8FF;
+	text-align: center;
+}
+.footer{
+	box-sizing: border-box;
+	background: #353A3F;
+	padding: 1rem;
+	text-align: center;
+	color: #fff;
+}
+.footer ul{
+	width: 66%;
+	overflow: hidden;
+	margin: 0 18%;
+}
+.footer ul li{
+	display: block;
+	width:33%;
+	float: left;
+	font-size:0.7rem;
+	 position: relative;
+}
+.footer ul li:nth-child(1):after,.footer ul li:nth-child(2):after{
+	content: "";
+	position: absolute;
+	right: 0;
+	top:50%;
+	transform:translateY(-49%);
+	width: 1px;
+	height: 1rem;
+	background:#fff;
+}
+
+
+
+  
+.addlist ul{
+	width: 90%;
+	margin: 0 auto;
+	background: #fff;
+}
+.addlist ul li{
+	margin: 1rem 0;
+}
+.addlist ul li p.tip{
+	text-align: left;
+	display: block;
+	padding:2%; 
+	width: 96%;
+	color: black;
+	border-radius: 5px;
+	background: #e8e8e8 url(../images/add-icon1.jpg)no-repeat right center;
+	background-size: contain;
+}
+.addlist ul li p.tip span{
+	display: inline-block;
+	float: right;
+	width: 25px;
+	height: 25px;
+}
+.addlist ul   p.detail{
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	background: #f1f1f1;
+	text-align: left;
+  display: none;
+}
+.addlist ul li  p.active{
+  display:block;
+}
+ 
+
+
+   .pro,.section1 .term{
+	background: #fff;
+}
+  .pro h6{
+	font-size: 0.8rem;
+}
+  .pro ul{
+	overflow: hidden;
+}
+  .pro li{
+	padding: 2%;
+	text-align: center;
+	display: block;
+	float: left;
+	width: 21%;
+	height: auto;
+	
+} 
+  .pro li .pro-img img,  .pro li .pro-img a{
+	display: block;
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+  .pro li .pro-img{
+	overflow: hidden;
+	 padding: 3px;
+	border-radius: 50%;
+	 
+	border:1px solid #ccc;
+}
+
+@media screen and (min-width:767px){
+	html{
+	font-size:25px;
+}
+ 	.header img {
+    width:43px;
+}
+  .section h2:before{
+   	left: -90px;
+   }
+   .section h2:after{
+   	right: -90px;
+   }
+ }
+ @media screen and (min-width:1024px){
+ 	html{
+	font-size:30px;
+}
+ 	.header img {
+    width: 52px;
+}
+.section h2:before{
+   	left: -100px;
+   }
+   .section h2:after{
+   	right: -100px;
+   }
+ }

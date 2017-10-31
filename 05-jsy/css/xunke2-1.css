@@ -1,0 +1,81 @@
+@charset "UTF-8"
+html{
+    font-size: 1rem;    
+}
+a{
+    color:black;
+}
+*{
+	padding:0;
+	margin:0;
+}
+.teach{
+	width:90%;
+	margin: auto;
+	margin-top: 0.8rem;
+}
+.teach>img{
+	width:35%;
+	height:auto;
+	float:left;
+	margin-right:3%;
+}
+.teach>span{
+	line-height: 1.5rem;
+	width:62%;
+	float:left;
+	font-size: 0.9rem;
+}
+.teach:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+.title{
+	margin:10px auto;
+}
+.area{
+	width:90%;
+	margin:auto;
+	background:#F2F8FF ;
+}
+.area>p{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	padding-left: 0.5rem;
+}
+.deraction{
+	height:3rem;
+	box-sizing: border-box;
+	padding:1rem 0rem;
+	width:90%;
+	margin:auto;
+}
+.pre{
+	float:left;
+}
+.next{
+	float:right;
+}
+.deraction a{
+	text-decoration: none;
+}
+@media (max-width: 376px){
+	.teach>span{
+	line-height: 1.4rem;
+}
+}
+@media (max-width: 361px){
+	.teach>span{
+	font-size: 0.8rem;
+}
+@media (max-width: 321px){
+	.teach{
+		width:94%;
+	}
+	.teach>span{
+	line-height: 1.3rem;
+}
+	.teach>span{
+	font-size: 0.7rem;
+}

@@ -1,0 +1,92 @@
+@charset "UTF-8"
+html{
+    font-size: 1rem;    
+}
+a{
+    color:black;
+}
+*{
+	padding:0;
+	margin:0;
+}
+.banner{
+	width:100%;
+}
+.banner>img{
+	width:100%;
+}
+.adwantage>div:nth-child(5){
+	margin-bottom:0rem;
+}
+.contact{
+	width:100%;
+	background: #238AF3;
+}
+.contact1{
+	margin-left:5%;
+	width:96%;
+	box-sizing: border-box;
+	overflow:hidden;
+}
+.contact1 img{
+	width:1.4rem;
+	height:1.4rem;
+	vertical-align:middle;
+}
+.contact1>div{
+width:50%;
+float:left;
+white-space: nowrap;
+}
+.contact1 span{
+	line-height: 2.2rem;
+	color:white;
+	font-size: 0.8rem;
+}
+.contact1:after{
+	display:block;
+	content:"";
+	clear:left;
+}
+.footer>span{
+	font-size:0.9rem;
+}
+@media (max-width: 375px){
+.contact1{
+	margin-left:4%;
+	width:98%;
+}
+.contact1 span{
+	font-size: 0.7rem;
+}
+}
+@media (max-width: 321px){
+.contact1 span{
+	font-size: 0.8rem;
+	line-height: 2rem;
+}
+.contact1>div{
+width:80%;
+margin-left:10%;
+}
+
+}
+@media (min-width: 767px){
+.contact1{
+	margin-left:6%;
+	width:90%;
+}
+.contact1 span{
+	font-size: 1rem;
+}
+.contact1 img{
+	width:1.7rem;
+	height:1.7rem;
+}
+.contact1 div:nth-child(1),.contact1 div:nth-child(3){
+	width:65%;
+}
+.contact1 div:nth-child(2),.contact1 div:nth-child(4){
+	width:35%;
+}
+}

@@ -1,0 +1,419 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-20 23:14:21
+ * @version $Id$
+ */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background: #dcdcdc;
+}
+.content{
+	width: 30%;
+	/*margin: 0 auto;*/
+	background: #fff;
+	border: 1px solid black;
+}
+.head{
+	width: 100%;
+	background: #1768bb;
+	height: 60px;
+	position: relative;
+}
+.logo{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(images/logo.jpg);
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	cursor: pointer;
+}
+.company{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 18px;
+	left: 60px;
+	cursor: pointer;
+}
+.homepage{
+	width: 30px;
+	height: 30px;
+	background: url(images/login.jpg);
+	background-size:100% 100%; 
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	cursor: pointer;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background: #ededed;
+	padding-bottom: 3px;
+}
+.nav ul{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+}
+.nav li{
+	float: left;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	line-height: 50px;
+}
+.nav li a{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+.nav li:hover{	
+	border-bottom:3px solid blue;
+}
+.nav li a:hover{
+	color: #547edb;
+	font-weight: bold;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+.article1{
+	width: 90%;
+	position: relative;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+.hr1{
+	position: absolute;
+	top: -25px;
+	width: 60%;
+	color: gray;
+	margin-left: 20%;
+}
+.article1 span{
+	display: inline-block;
+	width: 26%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: -33px;
+	left: 37%;
+	font-weight: bold;
+}
+.article1 .banner{
+	/*background: url(images/mingxing.png) no-repeat ;
+	background-size: 100% 100%;*/
+	width: 100%;
+	height:500px;
+	border: 5px solid #bdddff;
+}
+.banner table{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #bdddff;
+	text-align: center;
+}
+.banner table td a{
+	text-decoration: none;
+	color: black;
+	font-family: "微软雅黑"
+	font-size:15px;
+}
+.banner table td:hover{
+	color: green;
+}
+.banner table td a:hover{
+	color:green;
+}
+.banner table td,th{
+	cursor: pointer;
+	font-family: "微软雅黑"
+	font-size:15px;
+}
+.banner table th{
+	border: 1px solid #fff;
+	background: #696969;
+}
+
+.banner table  tr:nth-child(odd){
+	background: #d8ebff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.article2{
+	width: 90%;
+	position: relative;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+.hr2{
+	position: absolute;
+	top: -25px;
+	width: 60%;
+	color: gray;
+	margin-left: 20%;
+}
+.article2>span{
+	display: inline-block;
+	width: 26%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: -33px;
+	left: 37%;
+	font-weight: bold;
+}
+.article2 p{
+	cursor: pointer;
+	line-height: 15px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	text-indent: 30px;
+}
+.article2 p:hover{
+	color: #4169e1;
+}
+.article2 p:nth-of-type(1){
+	margin-bottom: 10px;
+}
+.student{
+	margin-top: 10px;
+	width: 100%;
+	height: 156px;
+}
+.student ul{
+	display: block;
+	float: left;	
+	list-style: none;
+}
+.student ul p,small,span,img{
+	cursor: pointer;
+}
+.student .ul1{
+	width: 15%;
+	text-align: center;
+}
+.student .ul1 li{
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+	height: 50%;
+}
+.student .ul1 li img{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.ul2{
+	width: 15%;
+	height: 100%;
+	font-size: 10px;
+	text-align: center;
+}
+.ul2 li{
+	line-height: 60px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.ul3 {
+	width: 25%;
+	height: 100%;
+}
+.ul3 li{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.ul3 li span{
+	display: inline-block;
+	font-size: 15px;
+	margin-top:15px;
+}
+.ul3 li small{
+	display: inline-block;
+	font-size: 10px;
+	padding: 1px 25px;
+	background: #ebebee;
+	border-radius: 5px;
+}
+.ul4{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+.ul4 li{
+	width: 100%;
+	height: 50%;
+}
+.ul4 li span{
+	margin-top: 20px;
+	display: inline-block;
+}
+.ul4 li small{
+	width: 80%;
+	height: 5px;
+	background: url(images/dian.png) no-repeat;
+	background-size:100% 100%; 
+	display: inline-block;
+}
+.ul5 {
+	width: 20%;
+	height: 100%;
+}
+.ul5 li{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.ul5 li span{
+	display: inline-block;
+	margin-top:15px;
+	font-size: 13px;
+}
+.ul5 li small{
+	display: inline-block;
+	font-size: 10px;
+	font-size: 13px;
+}
+.article2>p:nth-of-type(3){
+	margin-bottom:10px;
+	margin-top: 10px;
+	display: inline-block;
+/*	text-indent: 25px;*/
+}
+.article2 .stage{
+	width: 100%;
+	height: 250px;
+	background: url(images/banner_jiuye.png) no-repeat; 
+	background-size:100% 100%; 
+}
+.article3{
+	width: 90%;
+	position: relative;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+.hr3{
+	position: absolute;
+	top: -25px;
+	width: 60%;
+	color: gray;
+	margin-left: 20%;
+}
+.article3 span{
+	display: inline-block;
+	width: 36%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: -33px;
+	left: 32%;
+	font-weight: bold;
+}
+.article3 .people{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.article3 .people>li{
+	height: 100px; 
+	width: 100%;
+	border-bottom: 1px solid #c0c0c0;
+	position: relative;
+	padding: 5px 0;
+}
+.article3 .people>li img{
+	width: 35%;
+	height: 80%;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	cursor: pointer;
+}
+.article3 .people>li ul{
+	list-style: none;
+	width: 60%;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.article3 .people>li ul li{
+	line-height: 22px;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+.article3 .people b {
+	color: red;
+}
+.article3>p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	display: inline-block;
+	width: 20%;
+	margin-left: 40%;
+	margin-top: 15px ;
+	margin-bottom:15px;
+	cursor: pointer;
+}
+.footer{
+	background: #353A3f;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+}
+.footer span{	
+	display: inline-block;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+}
+.footer span a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.footer span a:hover{
+	color: #8b4513;
+}

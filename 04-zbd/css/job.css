@@ -1,0 +1,101 @@
+.content .section-text{
+	 box-sizing: border-box;
+	background: #fff;
+	padding:0.5rem;
+}
+.section1  .section-text table{
+	width: 100%;
+ 
+	border:5px solid #BDDDFF;
+}
+.section1  .section-text table th{
+	text-align: center;
+	color: #fff;
+	background: #707070;
+}
+.section1  .section-text table tr:nth-child(2n+1){
+	background: #D8EBFF;
+}
+.section1  .section-text table th{
+	line-height: 2rem;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.section1  .section-text table td{
+	line-height: 1.8rem;
+	border-bottom: 1px solid #BDDDFF;
+	border-right: 1px solid #BDDDFF;
+}
+.section2 {
+	font-size: 0.8rem;
+}
+.section2 p{
+	text-align: left;
+	text-indent: 2rem;
+	margin-bottom: 1rem;
+}
+.section2 .pic-show{
+	border-radius: 20px;
+	background: #F2F8FF;
+	padding: 1rem 0;
+	margin-bottom: 1rem;
+}
+.section2 table{
+	width: 100%;
+}
+.section2 table tr{
+	height:4rem;
+}
+.section2 table img{
+	width: 40px;
+	height: auto;
+
+}
+.section2 table td:nth-child(3) span {
+	display: inline-block;
+	width: 100%;
+	border-radius: 20px;
+	background: #EBEBEE;
+	color: #FF5B00;
+}
+.section2 table tr td:nth-child(4) span{
+	border-bottom: 2px dotted black;
+}
+.section2 img{
+	width: 90%;
+	height: auto;
+}
+.section3 .section-text>ul {
+	overflow: hidden;
+}
+.section3 .section-text>ul>a>li {
+	overflow: hidden;
+	padding: 1rem 0;
+	border-bottom: 1px solid #ccc;
+}
+.section3 .section-text>ul>a{
+	color: #333;
+	display: block;
+}
+.section3 .section-text>ul li ul li{
+	overflow: hidden;
+}
+.section3 .section-text>ul li img.star-pic{
+	width: 40%;
+	margin-right: 5%;
+	float: left;
+}
+.section3 .section-text>ul li .po-info{
+	width: 55%;
+	float: right;
+	text-align: left;
+	line-height:1.65rem;
+
+
+ }
+.section3 .section-text>ul li .po-info span{
+	color: #FE0000;
+}
+.section3 .section-text a.po-more{
+	display: none;
+}

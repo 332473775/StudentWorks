@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-20 20:14:37
+ * @version $Id$
+ */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background: #dcdcdc;
+}
+.content{
+	width: 30%;
+	/*margin: 0 auto;*/
+	background: #fff;
+	border: 1px solid black;
+}
+.head{
+	width: 100%;
+	background: #1768bb;
+	height: 60px;
+	position: relative;
+}
+.logo{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(images/logo.jpg);
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	cursor: pointer;
+}
+.company{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 18px;
+	left: 60px;
+	cursor: pointer;
+}
+.homepage{
+	width: 30px;
+	height: 30px;
+	background: url(images/login.jpg);
+	background-size:100% 100%; 
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	cursor: pointer;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background: #ededed;
+	padding-bottom: 3px;
+}
+.nav ul{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+}
+.nav li{
+	float: left;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	line-height: 50px;
+}
+.nav li a{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+.nav li:hover{	
+	border-bottom:3px solid blue;
+}
+.nav li a:hover{
+	color: #547edb;
+	font-weight: bold;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+.main .top{
+	height:30px;
+	width: 50%;
+}
+.top li{
+	display: block;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.top li span{
+	display: inline-block;
+	width: 100%;
+	height: 30px; 
+	line-height: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+}
+.top li span:hover{
+	font-size: 18px;
+}
+.top li:nth-of-type(1){
+	color: #fff;
+	background: #018fff;
+	border-radius: 7px 7px 0 0;
+}
+.top li:nth-of-type(2) span{
+	color: #00bfff;
+	border-bottom:2px solid #00bfff;
+}
+.top li:nth-of-type(2) span:hover{
+	color: #fff;
+	background: #018fff;
+	border-radius: 7px 7px 0 0;
+	border-bottom:none;
+}
+.down{
+	width: 100%;
+	margin-top: 17px;
+}
+.down li{
+	width: 100%;
+	height: 90px;
+	/*border:1px solid black;*/
+	position: relative;
+	margin-bottom: 10px ;
+	border-bottom: 1px solid #c0c0c0;
+}
+.down li img{
+	display: block;
+	width: 30%;
+	height: 80px;
+	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.down li span{
+	display: block;
+	font-size: 10px;
+	width: 69%;
+	height: 80px;
+	padding: 5px 10px;
+	line-height: 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #696969;
+	cursor: pointer;
+}
+.down li span:hover{
+	color: orange;
+	font-size: 15px;
+}
+.main .down li b{
+	line-height: 25px;
+	color: black;
+	cursor: pointer;
+}
+.more{
+	width: 20%;
+	color: #696969;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	margin-left:40%;
+	cursor: pointer;
+}
+.more:hover{
+	color: black;
+}
+.footer{
+	background: #353A3f;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+}
+.footer span{	
+	display: inline-block;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+}
+.footer span a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.footer span a:hover{
+	color: #8b4513;
+}

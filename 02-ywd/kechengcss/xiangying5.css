@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-17 11:54:57
+ * @version $Id$
+ */
+
+.content{
+	width: 100%;
+}
+
+.hr1{
+	top: 20px;
+	width: 80%;
+	color: gray;
+	margin-left: 10%;
+}
+.article1 span{
+	width: 50%;	
+	top: 10px;
+	left:25%;
+}
+.article1 ul{
+	margin-left: 11%;
+}
+.article1 ul li{
+	width: 60%;
+	height:60px;
+	margin-bottom: 20px;
+	border-radius:  42px 0;
+}
+[class*="hre"]{
+	width: 330px;
+
+}
+.article1 small{
+	left: 130px;
+}
+.point small:nth-of-type(1){
+	top: 50px;
+	right: 145px;
+}
+.point small:nth-of-type(2){
+	top: 126px;
+	left: 25px;
+}
+.point small:nth-of-type(3){
+	top: 190px;
+	right: 145px;
+}

@@ -1,0 +1,61 @@
+.section1 .section-text{
+	background: #fff;
+}
+.section1 img{
+	width: 85%;
+	height: auto;
+}
+.section1 .gnosis{
+
+	margin: 0 auto;
+	width: 85%;
+	padding: 10px 5px 0 5px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border:1px solid #ccc;
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	text-align: left;
+	text-indent: 2rem;
+	position: relative;
+}
+.section1 .gnosis .gnosis-title{
+	color: #fff;
+	position: absolute;
+	display: block;
+	left: 0;
+	top: -6%;
+	width:43%;
+	background-size:contain;
+	background: url(../images/tag.png)no-repeat center;
+}
+@media screen and  (max-width:370px) {
+	.section1 .gnosis .gnosis-title {
+     
+    width: 54%;
+    
+}
+}
+@media screen and  (min-width:373px) {
+	.section1 .gnosis .gnosis-title {
+    
+    width: 48%;
+     
+}
+    
+}
+@media screen and  (min-width:767px) {
+	.section1 .gnosis .gnosis-title {
+    width: 30%;
+}
+    
+}
+@media  screen and (min-width:1000px) {
+	.section1 .gnosis .gnosis-title {
+    
+    left: -44px;
+    top: -6%;
+    width:31%;
+   
+    
+}}

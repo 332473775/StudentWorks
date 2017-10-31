@@ -1,0 +1,67 @@
+@charset "UTF-8"
+html{
+    font-size: 1rem;    
+}
+a{
+    color:black;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.student{
+    width:90%;
+    margin:1rem auto;
+    height:2.3rem;
+   
+}
+.student span{
+    float:left;
+    display:inline-block;
+    color:#018FFF;
+    padding:0.4rem 1.4rem;
+     border-bottom: 1px solid #018FFF;
+}
+.student .stud{
+    color:#fff;
+    background: #018FFF;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+.work{
+    width:90%;
+    margin:auto;
+    margin-bottom: 2rem;
+}
+.work>img{
+    width:100%;
+    vertical-align: top;
+}
+.feel{
+  
+     width:90%;
+    margin:1rem auto;
+    position: relative;
+    border:1px solid #ccc;
+   
+}
+.feel>p{
+    padding-left: 1rem;
+    line-height: 40px;
+    width: 114px;
+    height: 46px;
+    top: -22px;
+    left: -2px;
+    position: absolute;
+    color: #fff;
+    background-image: url(../images/images/tag.png);
+    background-size: 114px 46px;
+    background-repeat: no-repeat;
+}
+.feel>span{
+    margin-top: 19px;
+    line-height: 1.5rem;
+    display: inline-block;
+    padding: 0 0.7rem 0.5rem;
+    text-indent: 2rem;
+}

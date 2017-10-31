@@ -1,0 +1,365 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-16 19:20:07
+ * @version $Id$
+ */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background: #dcdcdc;
+}
+.content{
+	width: 30%;
+	/*margin: 0 auto;*/
+	background: #fff;
+}
+.head{
+	width: 100%;
+	background: #1768bb;
+	height: 60px;
+	position: relative;
+}
+.logo{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(images/logo.jpg);
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	cursor: pointer;
+}
+.company{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 18px;
+	left: 60px;
+	cursor: pointer;
+}
+.homepage{
+	width: 30px;
+	height: 30px;
+	background: url(images/login.jpg);
+	background-size:100% 100%; 
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	cursor: pointer;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background: #ededed;
+	padding-bottom: 3px;
+}
+.nav ul{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+}
+.nav li{
+	float: left;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	line-height: 50px;
+}
+.nav li a{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+.nav li:hover{	
+	border-bottom:3px solid blue;
+}
+.nav li a:hover{
+	color: #547edb;
+	font-weight: bold;
+}
+.main{
+	position: relative;
+	width: 100%;
+	height: 710px;
+}
+.hr1{
+	position: absolute;
+	top: 20px;
+	width: 80%;
+	color: gray;
+	margin-left: 40px;
+}
+.article1 span{
+	display: inline-block;
+	width: 40%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+}
+.article1{
+	width: 82%;
+}
+.article1 ul{
+	width: 100%;
+	position: absolute;
+	top: 6%;
+	left: 9%;
+}
+.article1 ul li{
+	display: block;
+	width: 330px;
+	height:60px;
+	margin-bottom: 20px;
+	border-radius:  34px 0;
+	position: relative;
+	
+}
+.UID{
+	background-image: url(images/ui.png);
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+	border: 2px solid pink;
+}
+.UID a{
+	text-decoration: none;
+	color: black;
+}
+.Web{
+	background-image: url(images/fore.png);
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+	border: 2px solid #77ade7;
+}
+.Android{
+	background-image: url(images/android.png);
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+	border: 2px solid #b2ce49;
+}
+.Java{
+	background-image: url(images/java.png);
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+	border: 2px solid #ffa964;
+}
+.article1 small{
+	line-height: 30px; 
+	font-size: 10px;
+	font-family: "微软雅黑";
+	position: absolute;
+	left: 90px;
+	cursor: pointer;
+}
+[class*="hre"]{
+	height: 2px;
+	border: none;
+	display: inline-block;
+	position: absolute;
+	width: 230px;
+	right: 10px;	
+	top: 30px;
+}
+.hre2{
+	background:pink;
+}
+.hre3{
+	background:#77ade7;
+}
+.hre4{
+	background:#b2ce49;
+}
+.hre5{
+	background:#ffa964;
+}
+.UID a:hover{
+	color: pink;
+}
+.Web:hover{
+	color: #77ade7;
+}
+.Android:hover{
+	color:#b2ce49;
+}
+.Java:hover{
+	color: #ffa964;
+}
+.article2{
+	width: 100%;
+}
+.article2 span{
+	display: inline-block;
+	width: 25%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: 380px;
+	left: 37.5%;
+}
+.hr6{
+	position: absolute;
+	top: 390px;
+	width: 50%;
+	color: gray;
+	margin-left: 25%;
+}
+.point{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 420px;
+	padding: 10px;
+	background:url(images/point.png) ;
+	background-size: 95% 90%;
+	background-repeat:no-repeat; 
+}
+.point span{
+	color:white;
+	display: inline-block;
+	background: #238AF3;
+	text-align: center;
+}
+.point span:nth-of-type(1){
+	width: 100px;
+	height: 20px;	
+	position: absolute;
+	top: 32px;
+	left: 8%;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.point span:nth-of-type(2){
+	width: 115px;
+	height: 20px;
+	position: absolute;
+	top: 10%;
+	left: 62%;
+}
+.point span:nth-of-type(2):before{
+	content: "";
+	display: block;
+	border: 10px solid;/*加个solid不然他颜色出不来*/
+	border-color: #f2f8ff #f2f8ff #f2f8ff #238AF3;
+	background: black;
+	position: absolute;
+	right: -17%;
+}
+.point span:nth-of-type(3){
+	width: 115px;
+	height: 20px;
+	position: absolute;
+	top: 33%;
+	left: 6%;
+}
+.point span:nth-of-type(3):before{
+	content: "";
+	display: block;
+	border: 10px solid;
+	border-color: #f2f8ff #238AF3 #f2f8ff #f2f8ff;
+	background: black;
+	position: absolute;
+	left: -7%;
+}
+.point span:nth-of-type(4){
+	width: 115px;
+	height: 20px;
+	position: absolute;
+	top: 52%;
+	left: 62%;
+}
+.point span:nth-of-type(4):before{
+	content: "";
+	display: block;
+	border: 10px solid;
+	border-color: #f2f8ff #f2f8ff #f2f8ff #238AF3;
+	background: black;
+	position: absolute;
+	right: -17%;
+}
+.point small{
+	display: inline-block;
+	width: 170px;
+	height: 100px;
+	text-indent: 26px;
+	line-height: 20px;
+	color: #696969;
+	cursor: pointer;
+	word-wrap: break-word;
+}
+.point small:hover{
+	color: #8b4513;
+}
+.point small:nth-of-type(1){
+	position: absolute;
+	top: 50px;
+	right: 30px;
+}
+.point small:nth-of-type(2){
+	position: absolute;
+	top: 126px;
+	left: 5px;
+}
+.point small:nth-of-type(3){
+	position: absolute;
+	top: 190px;
+	right: 25px;
+}
+.footer{
+	background: #353A3f;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+}
+.footer span{	
+	display: inline-block;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+}
+.footer span a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.footer span a:hover{
+	color: #8b4513;
+}
+.selected{
+	/*background: red;*/
+	border-bottom: 3px solid blue;
+}
+.Customer{
+	width:70px;
+	height:110px;
+	background:url(images/ico-kf.png) no-repeat 0 0 ;
+	animation:animate 3s steps(32) infinite;/*2310/70-1=32*/
+	position: absolute;
+	bottom: 37%;
+	right: 2%;
+	/*border: 1px solid black;*/
+}
+@keyframes animate{
+	0%{background-position:-2240px 0;}
+	100%{background-position:0 0;}

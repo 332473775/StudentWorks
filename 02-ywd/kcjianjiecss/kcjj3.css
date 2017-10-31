@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-25 15:58:15
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.article1 span{
+	width:50%;
+	left: 25%;
+}
+.article1 ul li{
+	font-size: 10px;
+	line-height: 15px;
+}
+.article1 .ul1{
+	width: 42%;
+	top: 14%;
+	left: 23%;
+}
+.article1 .ul2{
+	width: 42%;
+	top: 55%;
+	left: 11%;
+}
+.article1 .ul3{
+	width: 42%;
+	top: 38%;
+	left: 54%;
+}
+
+.img1,.img2,.img3{
+	height: 42%;
+	width: 45%;
+	z-index: 1;
+}
+.article1 .img1{
+	top: 5%;
+	left: 22%;
+}
+.article1 .img2{
+	top: 48%;
+	left: 8%;
+}
+.article1 .img3{
+	top: 30%;
+	left: 53%;
+
+}
+.article1 .line3{
+	height: 5%;
+	width: 7%;
+	top: 68%;
+	left: 90%;
+}
+.article1 .p3{
+	top: 73%;
+	left: 69%;
+}
+.article2 .wei:after{
+	width: 7px;
+	height: 63px;
+}
+.article3 ul{
+	width: 75%;
+	font-size: 10px;
+	line-height: 18px;
+}
+.article3 .chen img{
+	width: 25%;
+}
+.article3 .xiao img{
+	width: 25%;
+}
+.article3 .chenx img{
+	width: 25%;
+}
+
+.point small{
+	width: 150px;
+	height: 120px;
+	text-indent: 26px;
+	line-height: 20px;
+}
+.point small:nth-of-type(1){
+	right: 2px;
+}
+.point small:nth-of-type(2){
+	left: 5px;
+}
+.point small:nth-of-type(3){
+	right: 2px;
+}
+.article5>div:nth-of-type(5){
+	left: 77%;
+	top: 5%;
+}
+.hr6{
+	width: 60%;
+	margin-left: 20%;
+}
+.article6>span{
+	width: 30%;
+	left: 35%;
+}
+.article7>span{
+	width: 30%;
+	left: 35%;
+}

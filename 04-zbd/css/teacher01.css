@@ -1,0 +1,66 @@
+.content{
+	padding: 1rem;
+}
+.teacher-info{
+	overflow: hidden;
+}
+.teacher-info img{
+  width: 35%;
+  height: auto;
+  margin-right: 3%;
+  float: left;
+}
+.teacher-info .info-text{
+	float: left;
+	width: 62%;
+}
+.teacher-info .info-text h6{
+	padding-bottom: 0.3rem;
+}
+.teacher-info .info-text p{
+	line-height: 1.5rem;
+}
+.section-text{
+	padding: 0.5rem 1rem;
+	background:#F2F8FF; 
+}
+.section-text p{
+	text-align: left;
+	 
+}
+.section-text p.po-info{
+	 
+	text-indent: 2rem;
+}
+// {
+// 	text-align: left;
+// 	text-indent: 2rem;
+// }
+.page {
+	overflow: hidden;
+	padding: 0 1rem 1rem 1rem;
+	font-size: 0.9rem;
+}
+.page .pre{
+	float: left;
+	opacity: 0.7;
+}
+.page .next{
+	float: right;
+	// padding: 0 1rem 1rem 1rem;
+}
+
+
+.info-text{
+	overflow: hidden;
+}
+.info-text .key{
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+.info-text .value{
+	width: 55%;
+	float: right;
+	text-align: left;
+}

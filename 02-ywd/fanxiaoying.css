@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-21 16:19:48
+ * @version $Id$
+ */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background: #dcdcdc;
+}
+.content{
+	width: 30%;
+	/*margin: 0 auto;*/
+	background: #fff;
+	border: 1px solid black;
+}
+.head{
+	width: 100%;
+	background: #1768bb;
+	height: 60px;
+	position: relative;
+}
+.logo{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(images/logo.jpg);
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	cursor: pointer;
+}
+.company{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 18px;
+	left: 60px;
+	cursor: pointer;
+}
+.homepage{
+	width: 30px;
+	height: 30px;
+	background: url(images/login.jpg);
+	background-size:100% 100%; 
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	cursor: pointer;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background: #ededed;
+	padding-bottom: 3px;
+}
+.nav ul{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+}
+.nav li{
+	float: left;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	line-height: 50px;
+}
+.nav li a{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+.nav li:hover{	
+	border-bottom:3px solid blue;
+}
+.nav li a:hover{
+	color: #547edb;
+	font-weight: bold;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	padding: 3%;
+	position: relative;
+}
+.main .mingxing{
+	width: 100%;
+	height: 170px;
+	position: relative;
+}
+.main .mingxing{
+	background: url(images/mingxing.png) no-repeat left;
+	background-size: 30% 100%;
+}
+.main .mingxing ul{
+	list-style: none;
+	line-height: 25px;
+}
+.main .mingxing ul li{
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.main .mingxing ul li:hover{
+	color: orange;
+}
+.main .mingxing ul:nth-of-type(1){
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 45%;
+}
+.main .mingxing ul:nth-of-type(1) li{
+	display: block;
+	float: right;
+	clear: right;
+}
+.main .mingxing ul:nth-of-type(2){
+	width: 28%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 15%;
+}
+.article1{
+	width: 94%;
+	position: relative;
+	/*height: 200px;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.hr1{
+	position: absolute;
+	top: -25px;
+	width: 60%;
+	color: gray;
+	margin-left: 20%;
+}
+.article1 span{
+	display: inline-block;
+	width: 26%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: -33px;
+	left: 37%;
+	font-weight: bold;
+}
+.article1 p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	text-indent: 23px;
+	cursor: pointer;
+}
+.article2{
+	width: 94%;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+.hr2{
+	position: absolute;
+	top: -25px;
+	width: 60%;
+	color: gray;
+	margin-left: 20%;
+}
+.article2 span{
+	display: inline-block;
+	width: 26%;
+	height: 20px;
+	background: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	top: -33px;
+	left: 37%;
+	font-weight: bold;
+}
+.article2 p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	text-indent: 23px;
+	cursor: pointer;
+}
+.left{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	color: #A9A9A9;
+	float: left;
+	position: absolute;
+	bottom: 10px;
+	left: 5%;
+}
+.right{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	color: #696969;
+	float: right;
+	position: absolute;
+	bottom: 10px;
+	left: 80%;
+}
+.footer{
+	background: #353A3f;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+}
+.footer span{	
+	display: inline-block;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+}
+.footer span a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.footer span a:hover{
+	color: #8b4513;
+}

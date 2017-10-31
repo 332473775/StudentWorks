@@ -1,0 +1,59 @@
+.content .section .section-text{
+	padding: 1rem;
+	background: #fff;
+}
+.tip1 img{
+	width: 58%;
+	height: auto;
+}
+.tip1 p{
+	width: 40%;
+	text-indent: 2rem;
+	text-align: left;
+	font-size: 0.85rem;
+	line-height: 1.6rem;
+}
+.tip1 {
+	overflow: hidden;
+}
+.tip1 li{
+	overflow: hidden;
+	margin-bottom:1rem;
+
+}
+.tip1  li:nth-child(2n+1) img{
+ float: right;
+}
+.tip1  li:nth-child(2n+1) p{
+ float: left;
+ padding-right: 2%;
+}
+.tip1  li:nth-child(2n) img{
+ float: left;
+}
+.tip1  li:nth-child(2n) p{
+ float: right;
+ padding-left: 2%;
+}
+.tip2{
+	text-indent: 2rem;
+	text-align: left;
+}
+
+.tip2 img{
+	width: 48%;
+	height: auto;
+	float: left;
+	vertical-align: middle;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.tip2 img:nth-child(2n){
+	margin-right: 4%;
+}
+@media screen and  (max-width:380px) {
+	.tip1 p {
+   
+    line-height: 1.2rem;
+}
+}

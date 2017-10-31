@@ -1,0 +1,194 @@
+@charset "UTF-8"
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	font-size: 1rem;
+}
+.introduce{
+	box-sizing: border-box;
+	width:100%;
+	padding:0.2rem 5%;
+	background:#F4F8FB;
+}
+.introduce span{
+	display:block;
+	text-indent: 1.8rem;
+	line-height: 1.6rem;
+	font-size:0.9rem;
+}
+.adwantage{
+	width:90%;
+	margin:auto;
+}
+.adwantage>div {
+margin-bottom:1rem;
+background: #F2F2F2;
+}
+.adwantage>div:nth-child(5){
+	margin-bottom:2rem;
+}
+.add{
+	float:right;
+}
+.adwantage img{
+width:2rem;
+height:2rem;
+float:right;
+}
+.adwantage>div>span{
+	height:2rem;
+	line-height: 2rem;
+	display: inline-block;
+	padding:0 1rem;
+}
+ .adcont{
+	font-size: 0.9rem;
+	display: none;
+	padding:0.7rem  1rem;
+}
+.show{
+	display: block;
+}
+
+.method{
+	width:100%;
+	height:340px;
+	background:#f2f8ff;
+	padding:1rem 0rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.method>img{
+	width:100%;
+	height:100%;
+}
+.method>div{
+	width:45%;
+	position: absolute;
+}
+.list1{
+	
+	left:5%;
+	top:13%;
+}
+.list2{
+	right:2%;
+	top:15%;
+}
+.list3{
+	left:5%;
+	top:38%;
+}
+.list4{
+	right:2%;
+	top:57%;
+}
+.method>div>p{
+	position: relative;
+	display:inline-block;
+	color:white;
+	background: #238AF3;	
+}
+.list1>p{
+	padding:0 0.2rem;
+	border-radius: 0.2rem;
+}
+.method>div>span{
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+	font-size: 0.9rem;
+	display:inline-block;
+	text-indent:1.8rem;
+	line-height: 1.2rem;
+}
+.list-right{
+	float:right;
+	margin-right: 22px;
+}
+.list-left{
+	float:left;
+	margin-left: 10px;
+}
+
+.list-right:after{
+	content: "";
+	display:block;
+	width:0;
+	height:0;
+	position:absolute;
+ 	top:0px;
+ 	right:-10px;
+    border-left: 10px solid #238AF3;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.list-left:after{
+	content: "";
+	display:block;
+	width:0;
+	height:0;
+	position:absolute;
+ 	top:0px;
+ 	left:-10px;
+    border-right: 10px solid #238AF3;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+@media (max-width: 375px){
+ 	.method>div{
+	width:42%;	
+}
+ @media (max-width: 361px){
+
+ 	.method>div{
+	width:43%;	
+}
+.method>div>span{
+	font-size: 0.75rem;
+}
+.list1{
+	left:5%;
+	
+}
+.list2{
+	right:3%;	
+}
+
+.list4{
+	right:3%;
+}
+ }
+ @media (min-width: 767px){
+.method>div{
+	width:40%;
+}
+.list1{
+	left:12%;
+	
+}
+.list2{
+	right:4%;
+	}
+.list3{
+	
+	left:5%;
+	}
+.list4{	
+	right:4%;	
+}
+.method>div>span{
+	padding-top:0.5rem;
+	text-indent:2rem;
+	line-height: 1.5rem;
+}
+
+.list-right{
+	float:left;
+	margin-left: 24%;
+}
+.list-left{
+	float:right;
+	margin-right: 25%;
+}

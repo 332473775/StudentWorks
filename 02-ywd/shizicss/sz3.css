@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-19 22:35:10
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.teacher .small1{
+	font-size: 10px;
+	margin-left: -3px;
+}
+
+.teacher .small2{
+	width: 90px;
+	margin-left: -13px;
+}
+.people{
+	width: 96%;
+}
+.jingyan{
+	font-size: 9px;
+	right: 2px;
+	width: 55%;
+}
+.people img{
+	display: block;
+	width: 55%;
+	height: 85%;
+	margin-left: 28px;
+}
+.hrl1{
+	width: 14px;
+	top: 16px;
+	left: 30px;
+}
+.hrl2{
+	width: 28px;
+	top: 52px;
+	left: 36px;
+}
+.hrl3{
+	width: 48px;
+	top: 90px;
+	left: 36px;
+}
+.hrl4{
+	width: 69px;
+	top: 127px;
+	left: 36px;
+}
+.hrl5{
+	width: 15px;
+	top: 16px;
+	right: 114px;
+}
+.hrl6{
+	width: 23px;
+	top: 52px;
+	right: 124px;
+}
+.hrl7{
+	width: 10px;
+	top: 90px;
+	right: 158px;
+}
+.hrl8{
+	width: 15px;
+	top: 127px;
+	right: 173px;
+}
+.article1 h5{
+	top: 400px;
+	left: 90px;
+}
+.article2 span{
+	top: 420px;
+	left: 37.5%;
+}
+.hr6{
+	top: 430px;
+	width: 50%;
+}

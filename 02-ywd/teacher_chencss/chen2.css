@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-21 23:53:42
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.article1 ul li{
+	font-size: 15px;
+	line-height: 23px;
+}

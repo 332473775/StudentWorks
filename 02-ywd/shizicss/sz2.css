@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-19 22:25:28
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.teacher .small1{
+	font-size: 10px;
+	margin-left: 3px;
+}
+.teacher .small2{
+	margin-left: -3px;
+	font-size: 10px;
+}
+.people{
+	width: 96%;
+}
+.jingyan{
+	font-size: 10px;
+	right: 8px;
+}

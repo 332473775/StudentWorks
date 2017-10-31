@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-20 19:08:31
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.article2 span{
+	width: 50%;
+	left: 25%;
+}
+.article2 ul li{
+	margin-right:20px;
+	width: 25%;
+}
+.article2 .red{
+	width: 30px;
+	height: 6px;
+	left: 63px;
+}
+.article2 .orange{
+	width: 30px;
+	height: 6px;
+	left: 152px;
+}
+.article2 .purple{
+	width: 30px;
+	height: 6px;
+	left: 152px;
+}
+.article2 .blue{
+	width: 30px;
+	height: 6px;
+	left: 63px;
+}
+.article2 .green{
+	left: 240px;
+}

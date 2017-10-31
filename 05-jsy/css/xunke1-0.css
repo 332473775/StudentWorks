@@ -1,0 +1,83 @@
+@charset "UTF-8"
+html{
+    font-size: 1rem;    
+}
+*{
+	padding:0;
+	margin:0;
+}
+a{
+    color:black;
+}
+.item{
+	padding:15px 0;
+	width:100%;
+	background: #f2f8ff;
+}
+.item>div{
+	height:75px;
+	width:90%;
+	margin:auto;
+	margin-bottom: 20px;
+	border-bottom-right-radius:2.5rem;
+	border-top-left-radius: 2.5rem; 
+}
+.item>div:nth-child(4){
+	margin-bottom:0px;
+}
+.item>div>img{
+	/*margin-right: 2rem;*/
+	float:left;
+	height:100%;
+	width:75px;
+}
+.item-content{
+	/*width: 75%;*/
+    height: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    /*float: right;*/
+    overflow: hidden;
+}
+
+.item-content>span{ 
+	line-height: 2.2rem;
+	font-size: 1rem;
+}
+.item-content>span:before{
+position:relative;
+bottom:-36px;
+content:"";
+display:block;
+}
+.ui span:before{
+	border:1px solid #ff7f90;
+}
+.fore span:before{
+	border:1px solid #77ade7;
+}
+.android span:before{
+	border:1px solid #b2ce49;
+}
+.java span:before{
+	border:1px solid #ffa964;
+}
+.ui{
+	border:1px solid #ff7f90;
+}
+.fore{
+	border:1px solid #77ade7;
+}
+.android{
+	border:1px solid #b2ce49;
+}
+.java{
+	border:1px solid #ffa964;
+}
+
+@media (max-width: 376px){
+	.title>p{
+		width:20%;
+	}
+}

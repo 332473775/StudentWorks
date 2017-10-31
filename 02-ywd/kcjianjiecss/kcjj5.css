@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-25 16:38:08
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.article1 span{
+	width: 30%;
+	left: 35%;
+}
+.article1 .p3{
+	top: 72%;
+	left: 83%;
+}
+.point small:nth-of-type(1){
+	right: 150px;
+}
+.point small:nth-of-type(2){
+	left: 15px;
+}
+.point small:nth-of-type(3){
+	right: 150px;
+}
+
+.article5>div:nth-of-type(1){
+	left: 15%;
+	top: 5%;
+}
+.article5>div:nth-of-type(2){
+	left: 29%;
+	top: 65%;
+}
+.article5>div:nth-of-type(3){
+	left: 44%;
+	top: 5%;
+}
+.article5>div:nth-of-type(4){
+	left: 60%;
+	top:65%;
+}
+.article5>div:nth-of-type(5){
+	left: 73%;
+	top: 5%;
+}
+
+.article5 .li1{
+	top: 40%;
+	left: 23%;
+	transform: rotate(8deg);
+}
+.article5 .li2{
+	top: 40%;
+	left: 55%;
+	transform: rotate(2deg);
+}
+.article5 .li3{
+	top: 40%;
+	left: 38%;
+	transform: rotate(86deg);
+}
+.article5 .li4{
+	top: 40%;
+	left: 68%;
+	transform: rotate(86deg);
+}

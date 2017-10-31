@@ -1,0 +1,70 @@
+.content{
+	padding:5%;
+}
+ 
+.tip ul{
+	width: 60%;
+	border-bottom: 2px solid #018FFF;
+	overflow: hidden;
+	 
+}
+.tip ul li{
+
+	width: 50%;
+	// background: pink;
+	display: block;
+	float: left;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+.tip ul li.active{
+	background:#018FFF;
+}
+.tip ul li.active a{
+	color: #fff;
+}
+.tip ul li a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #018FFF;
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+}
+.class-tab .tab1 a{
+	display: block;
+}
+.class-tab .tab1 img{
+	width: 36%;
+	height: auto;
+	float: left;
+}
+.class-tab .tab1 li{
+	overflow: hidden;
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+.class-tab .tab1 li p{
+	font-size: 0.9rem;
+	padding-bottom: 5px;
+}
+.class-tab .tab1 li h6{
+	font-size: 0.8rem;
+}
+.tab1 .act-info{
+	color: #333;
+	width: 60%;
+	float: left;
+	margin-left:10px;
+}
+.class-tab .tab1 ul.hide{
+	display: none;
+}
+.class-more{
+	color: #333;
+	text-align: center;
+	padding-top: 5px;
+}
+.tab2{
+	display: none;
+}

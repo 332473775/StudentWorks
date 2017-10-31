@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-20 19:20:57
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+.article2 .red{
+	width: 45px;
+	left: 67px;
+}
+.article2 .orange{
+	width: 45px;
+	left: 168px;
+}
+.article2 .purple{
+	width: 45px;
+	left: 168px;
+}
+.article2 .blue{
+	width: 45px;
+	left: 67px;
+}
+.article2 .green{
+	left: 270px;
+}
