@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-23 20:33:03
+ * @version $Id$
+ */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+
+ *{
+ 	padding:0;
+ 	margin:0;
+ }
+
+html{
+	font-size: 10px;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.header{
+	height: 5rem;
+	line-height: 5rem;
+	width: 100%;
+	background: #1768BB;
+	box-sizing: border-box;
+}
+
+.logo{
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.logo img{
+	display: inline-block;
+	height: 3rem;
+	width: 3rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+
+.header span{
+	float: left;
+	color: #fff;
+	margin-left: 1rem;
+	font-size: 2.1rem;
+}
+
+.logo_home{
+	height: 100%;
+	float: right;
+}
+
+.logo_home img{
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	margin-top: 1rem;
+	margin-right: 2rem;
+}
+
+.nav{
+	box-sizing: border-box;
+	height: 5rem;
+	line-height: 5rem;
+	width: 100%;
+	background: #EDEDED;
+}
+
+.nav ul{	
+	box-sizing: border-box;
+	height: 5rem;
+	line-height: 5rem;
+	width: 100%;
+	float: left;
+}
+
+.nav li{
+	height: 5rem;
+	line-height: 5rem;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.nav a{
+	color: black;
+}
+
+.nav li:hover{
+	border-bottom: 4px solid blue;
+}
+
+.nav li:hover a{
+	text-decoration: none;
+}

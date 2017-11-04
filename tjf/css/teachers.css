@@ -1,0 +1,545 @@
+html{
+	font-size: 16px;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*标题栏开始*/
+.header{
+	background: #1768bb;
+	display: flex;
+	justify-content: space-between;
+}
+.myhead{
+	display: flex;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	/*justify-content: space-between;*/
+	/*justify-content: center;*/
+	
+}
+.myhead img{
+	align-self: center;
+	height: 2rem;
+	padding-right: 1.5rem;
+}
+.myhead span{
+	/*justify-content: center;*/
+	align-self: center;
+	font-size: 1.5rem;
+    color: #fff;
+}
+.header_end{
+	display: flex;
+}
+.header_end img{
+	height: 2rem;
+	padding-right: 1rem;
+	align-self: center;
+	justify-content: space-between;
+}
+/*标题栏结束*/
+/*导航栏开始*/
+.Nav ul{
+    display: flex;
+    background: #ededed;
+}
+.Nav ul li{
+	width: 20%;
+	height: 2.5rem;
+	text-align: center;
+	padding: 0.5rem;
+	box-sizing: border-box;
+    color: #000;
+    font-size: 1.2rem;
+}
+.Nav ul .teachers{
+	box-sizing: border-box;
+	color: #1768BB;
+	border-bottom: 2px solid #1768BB;
+}
+.Nav ul li a{
+	color: #000;
+	text-decoration: none;
+}
+/*导航栏结束*/
+/*内容开始*/
+.content .one .Line{
+	width: 80%;
+	height: 2rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #bababa;
+}
+.content .one span{
+	width: 30%;
+	display: block;
+	font-size: 1.2rem;
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+	float: left;
+    margin-top: -0.8rem;
+    background: #fff;
+    margin-left: 35%;
+}
+.content .one .content_main{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #f2f8ff;
+}
+.content .one .content_main p{
+	font-size: 1.2rem;
+	text-indent: 2.4rem;
+}
+
+/*讲师介绍开始*/
+.content .one .picture{
+	position: relative;
+}
+.content .one .picture a{
+	width: 4em;
+	float: left;
+	margin: 0.85rem;
+	border-radius: 100%;
+	display: block;
+	height: 4em;
+	border:1px solid #8c8c8c;
+	position: relative;
+	overflow: hidden;
+}
+.content .one .picture a img{
+	position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    max-height: 90%;
+    max-width: 90%;
+}
+.content .one .picture .p11{
+	position: absolute;
+	top: 5rem;
+	left: 1.5rem;
+}
+.content .one .picture .p12{
+	position: absolute;
+	top: 6.5rem;
+	left: 0.5rem;
+}
+.content .one .picture .p13{
+	position: absolute;
+	top: 5rem;
+	left: 7.5rem;
+}
+.content .one .picture .p14{
+	position: absolute;
+	top: 6.5rem;
+	left: 7rem;
+}
+.content .one .picture .p15{
+	position: absolute;
+	top: 4rem;
+	left: 12rem;
+}
+.content .one .picture .p16{
+	position: absolute;
+	top: 6.5rem;
+	left: 12.5rem;
+}
+.content .one .picture .p17{
+	position: absolute;
+	top: 5rem;
+	left: 19rem;
+}
+.content .one .picture .p18{
+	position: absolute;
+	top: 6.5rem;
+	left: 18rem;
+}
+/*讲师介绍结束*/
+
+.clear{
+	clear: both;
+}
+
+.content .pyramid{
+	width: 100%;
+	height: 180px;
+	margin-top: 3rem;
+	color: #7a7a7a;
+	box-sizing: border-box;
+	position: relative;
+	font-size: 0.7rem;
+}
+.content .pyramid img{
+	max-height: 85%;
+	margin-left: 3rem;
+}
+
+/*金字塔左边文字开始*/
+.content .pyramid .left h2{
+	color: #93d381;
+	position: absolute;
+	top: 0.7rem;
+	left: 0.6rem;
+}
+.content .pyramid .left .p_1{
+	border-top: 1px solid #747272;
+	top: 1.2rem;
+    left: 3.2rem;
+    position: absolute;
+    width: 1.2rem;
+}
+.content .pyramid .left h3{
+	color: #f7cd5e;
+	position: absolute;
+	top: 3.2rem;
+	left: 0.6rem;
+}
+.content .pyramid .left .p_2{
+	border-top: 1px solid #747272;
+	top: 3.7rem;
+    left: 3.2rem;
+    position: absolute;
+    width: 2.6rem;
+}
+.content .pyramid .left h4{
+	color: #66cdfd;
+	position: absolute;
+	top: 5.3rem;
+	left: 0.6rem;
+}
+.content .pyramid .left .p_3{
+	border-top: 1px solid #747272;
+	top: 5.8rem;
+    left: 3.2rem;
+    position: absolute;
+    width: 4rem;
+}
+.content .pyramid .left h5{
+	color: #f38c81;
+	position: absolute;
+	top: 7.7rem;
+	left: 0.6rem;
+}
+.content .pyramid .left .p_4{
+	border-top: 1px solid #747272;
+	top: 8.2rem;
+    left: 3.2rem;
+    position: absolute;
+    width: 5.6rem;
+}
+/*金字塔左边文字结束*/
+
+/*金字塔右边文字开始*/
+.content .pyramid .right h2{
+	position: absolute;
+	top: 0.7rem;
+	right: 0.6rem;
+}
+.content .pyramid .right .p_1{
+	border-top: 1px solid #747272;
+	top: 1.2rem;
+    right: 7.7rem;
+    position: absolute;
+    width: 1.4rem;
+}
+.content .pyramid .right h3{
+	position: absolute;
+	top: 3.2rem;
+	right: 0.6rem;
+}
+.content .pyramid .right .p_2{
+	border-top: 1px solid #747272;
+	top: 3.7rem;
+    right: 8.5rem;
+    position: absolute;
+    width: 2rem;
+}
+.content .pyramid .right h4{
+	position: absolute;
+	top: 5.3rem;
+	right: 0.6rem;
+}
+.content .pyramid .right .p_3{
+	border-top: 1px solid #747272;
+	top: 5.8rem;
+    right: 10.5rem;
+    position: absolute;
+    width: 1.5rem;
+}
+.content .pyramid .right h5{
+	position: absolute;
+	top: 7.7rem;
+	right: 0.6rem;
+}
+.content .pyramid .right .p_4{
+	border-top: 1px solid #747272;
+	top: 8.2rem;
+    right: 12.5rem;
+    position: absolute;
+    width: 1rem;
+}
+/*金字塔右边文字结束*/
+
+/*金字塔底部文字开始*/
+.content .pyramid span{
+	display: block;
+	
+	margin-left: 7.8rem;
+}
+/*金字塔底部文字结束*/
+
+/*第二部分开始*/
+.content .two{
+	margin-top: 0rem;
+}
+.content .two .Line{
+	width: 80%;
+	height: 2rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #bababa;
+	
+}
+.content .two span{
+	width: 30%;
+	display: block;
+	font-size: 1.2rem;
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+	float: left;
+    margin-top: -0.8rem;
+    
+    background: #fff;
+    margin-left: 35%;
+}
+.content .two .content_main{
+	margin-top: 2rem;
+}
+.content .two .content_main div{
+	margin-left: 5%;
+	background: #f0f0f0;
+	width: 90%;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.content .two .content_main img{
+	position: absolute;
+	top: 0rem;
+	width: 3.3rem;
+	right: 0rem;
+}
+.content .two .content_main p{
+	width: 100%;
+	height: 3.3rem;
+	margin-top:1.5rem;
+	line-height: 3.3rem;
+	background: #f0f0f0;
+	box-sizing: border-box;
+	opacity: 0.8;
+}
+.hiddens{
+	display: none;
+}
+/*第二部分结束*/
+
+/*尾部开始*/
+.dibu{
+	height: 6.25rem;
+	width: 100%;
+	background: #353a3f;
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 2rem;
+	box-sizing: border-box;
+}
+.dibu ul{
+	width: 100%;
+	height: 2rem;
+	padding-left: 4%;
+	box-sizing: border-box;
+}
+.dibu ul li{
+	float: left;
+	width: 30%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 0 auto;
+	box-sizing: border-box;
+	border-right: 1px solid #fff;
+}
+.dibu ul li:last-child{
+	border:none;
+}
+/*尾部结束*/
+
+
+
+@media (max-width: 320px){
+	.content .one .content_main{
+		padding-left: 1rem;
+    	padding-right: 1rem;	
+	}
+
+	.content .one .content_main p{
+		font-size: 1rem;
+		text-indent: 2rem;
+	}
+	
+.content .one .picture a{
+	width: 3em;
+	margin: 0.9rem;
+	height: 3em;
+}
+
+.content .one .picture .p11{
+	position: absolute;
+	top: 4.5rem;
+	left: 1.2rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p12{
+	position: absolute;
+	top: 6rem;
+	left: 0.5rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p13{
+	position: absolute;
+	top: 4.5rem;
+	left: 6.3rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p14{
+	position: absolute;
+	top: 6rem;
+	left: 5.8rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p15{
+	position: absolute;
+	top: 3.5rem;
+	left: 10.5rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p16{
+	position: absolute;
+	top: 6rem;
+	left: 11rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p17{
+	position: absolute;
+	top: 4.5rem;
+	left: 16rem;
+	font-size: 0.8rem;
+}
+.content .one .picture .p18{
+	position: absolute;
+	top: 6rem;
+	left: 15.5rem;
+	font-size: 0.8rem;
+}
+
+/*金字塔左边文字开始*/
+.content .pyramid img {
+    max-height: 70%;
+    margin-top: 0.4rem;
+    margin-left: 3rem;
+}
+.content .pyramid .left .p_1{
+    left: 2.8rem;
+}
+.content .pyramid .left h3{
+	top: 2.6rem;
+}
+.content .pyramid .left .p_2{
+	top: 3.2rem;
+    left: 2.8rem;
+    width: 2.4rem;
+}
+.content .pyramid .left h4{
+	top: 4.6rem;
+}
+.content .pyramid .left .p_3{
+	top: 5rem;
+    left: 2.8rem;
+    width: 3.5rem;
+}
+.content .pyramid .left h5{
+	top: 6.7rem;
+}
+.content .pyramid .left .p_4{
+	top: 7.2rem;
+    left: 2.8rem;
+    width: 5rem;
+}
+/*金字塔左边文字结束*/
+
+/*金字塔右边文字开始*/
+.content .pyramid .right h2{
+	width: 5rem;
+    top: 0rem;
+}
+.content .pyramid .right .p_1{
+    right: 6.2rem;
+
+}
+.content .pyramid .right h3{
+	width: 6rem;
+	top: 2.2rem;
+
+}
+.content .pyramid .right .p_2{
+	top: 3rem;
+    right: 6.8rem;
+}
+.content .pyramid .right h4{
+	width: 8rem;
+	top: 4.3rem;
+	right: -0.4rem;
+}
+.content .pyramid .right .p_3{
+	top: 5rem;
+    right: 8rem;
+    width: 2rem;
+}
+.content .pyramid .right h5{
+	width: 9rem;
+	top: 6.5rem;
+}
+.content .pyramid .right .p_4{
+	top: 7.2rem;
+    right: 9.8rem;
+    width: 1.5rem;
+}
+/*金字塔右边文字结束*/
+
+/*金字塔底部文字开始*/
+.content .pyramid span{
+	margin-left: 6.8rem;
+}
+/*金字塔底部文字结束*/
+
+.content .two {
+    font-size: 0.8em;
+}
+
+
+.dibu{
+	font-size: 1em;
+}
+.dibu ul li{
+	width: 33%;
+	height: 1.3rem;
+}
+}

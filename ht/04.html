@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>课程	</title>
+	<link rel="stylesheet" href="./css/04.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/add.css">
+	<script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="./js/nav.js"></script>
+</head>
+<body>
+<div class="headers">
+ 	<div class="logo">
+ 		<img src="./images/logo.jpg" class="logo_img">
+ 		<span class="text">讯科教育</span>
+	 	<div class="home">
+	 		<img src="./images/login.jpg" alt="">
+	 	</div>
+ 	</div>
+ </div>	
+ <div class="nav">
+ 	<ul>
+ 		<li>就业</li>
+ 		<li class="active">课程</li>
+ 		<li>师资</li>
+ 		<li>课堂</li>
+ 		<li>我们</li>
+ 	</ul>
+ </div>
+ <div class="content">
+	<div class="tec"></div>
+	<span class="tech tech_top1">名师资历</span>
+
+	<div class="script_text"><span class="script"></span>讯科坚持"教育为本，用良心做教育"的方针理念。秉承对学生学习、就业负责到底的原则。掌握时代潮流技术，将前沿技能融入教学中，传授真正使用的技能知识。聘请尖端技能精英讲师，保证教学质量与水准。通过手把手教学，指导学生更快的掌握技能知识，成就高新就业学子</div>
+
+	<div class="pho">
+		<ul>
+			<li><img src="./images/teacher-icon1.jpg" alt="">
+			<span>吴老师</span>
+			<span>前端工程师</span>
+			</li>
+			<li><img src="./images/teacher-icon2.jpg" alt="">
+			<span>陈老师</span>
+			<span>UI设计师</span>
+			</li>
+			<li><img src="./images/teacher-icon3.jpg" alt="">
+			<span>陈老师</span>
+			<span>UI设计师</span>
+			</li>
+			<li><img src="./images/teacher-icon4.jpg" alt="">
+			<span>肖老师</span>
+			<span>软件架构师</span>
+			</li>
+		</ul>
+		<div class="perdonnel">
+			<div class="pyramid">
+				<img src="./images/pyramid.jpg" alt="">
+				<div class="pass">最终合格</div>
+			</div>	
+			<div class="con con1"><i>条件1</i><span class="width width1"></span></div>	
+
+			<div class="con con2"><i>条件2</i><span class="width width2"></span></div>		
+			<div class="con con3"><i>条件3</i><span class="width width3"></div>		
+			<div class="con con4"><i>条件4</i><span class="width width4"></div>
+			<div class="con con1 right"><span class="conwidth conwidth1"></span>两年以上带薪新人经验 </div>	
+			<div class="con con2 right"><span class="conwidth conwidth2"></span>八年以上行业从业经验 </div>	
+			<div class="con con3 right"><span class="conwidth conwidth3"></span>项目经理、设计总监、架构师 </div>	
+			<div class="con con4 right"><span class="conwidth conwidth4"></span>主导至少三个省级或300万以上项目</div>
+		</div>
+		<div class="teacher">
+			<div class="tec"></div>
+			<span class="tech tech_top2">师资优势</span>
+		</div>
+
+		<div class="add-icon1">
+			<ul>
+				<li class="bngs top">
+					<span>八年以上研发经验，底蕴深厚 </span>
+					<img src="./images/add-icon1.jpg" alt="">
+					  <div class="none disnone">讯科教育所开设的每一门课程都基于企业制定式人才需求培养。保证每个学员的高新就业，年薪五万起</div>
+				</li>
+				<li class="bngs"><img src="./images/add-icon1.jpg" alt="">
+					<span>项目经验丰富，研发能力突出 </span>
+				  <div class="none disnone">讯科教育所开设的每一门课程都基于企业制定式人才需求培养。保证每个学员的高新就业，年薪五万起</div>
+				</li>
+				<li class="bngs"><img src="./images/add-icon1.jpg" alt="">
+					<span>企业项目经理亲自授课 </span>
+					  <div class="none disnone">讯科教育所开设的每一门课程都基于企业制定式人才需求培养。保证每个学员的高新就业，年薪五万起</div>				
+				</li>
+				<li class="bngs"><img src="./images/add-icon1.jpg" alt="">
+					<span>两年以后新人培养经验 </span>
+				 	 <div class="none disnone">讯科教育所开设的每一门课程都基于企业制定式人才需求培养。保证每个学员的高新就业，年薪五万起</div>
+				</li>
+				<li class="bngs disnone"><img src="./images/add-icon1.jpg" alt="">
+					<span>热爱体育，一身作则，有责任心 </span>
+				 	 <div class="none disnone">讯科教育所开设的每一门课程都基于企业制定式人才需求培养。保证每个学员的高新就业，年薪五万起</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	 <div class="footer">
+ 	<div class="copname">福建讯科教育有限公司</div>
+ 	<div class="coll"><a href="">企业介绍</a>|<a href="">业务范围</a>|<a href="">联系我们</a></div>
+ </div>
+
+</body>
+<script typr="text/javascript">
+	$(function(){
+		$(".add-icon1 li img").click(function(){
+			var index = $(this).parent().index();
+			$(".add-icon1 li").find("div").addClass('disnone');
+			$(".add-icon1 li").eq(index).find("div").removeClass('disnone');
+		})
+	});
+</script>
+</html>

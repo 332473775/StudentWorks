@@ -1,0 +1,64 @@
+
+a{
+	text-decoration:none;
+}
+.content{
+	margin: 10px;
+}
+
+.content .ul_1 li{
+	float: left;
+	list-style: none;
+	border-bottom:1px solid #018FFF;
+	width: 26%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px 10px 0px 0px;
+}
+.content .ul_1 a{
+	color: #018FFF;
+}
+.content .xue{
+	background: #018FFF;
+}
+.content .xue a{
+	color: #fff;
+}
+.content .ul_1{
+	overflow: hidden;
+}
+
+
+.content .mingxing img{
+	max-width: 130px;
+	max-height:195px;
+}
+
+.mingxing .touxiang{
+	float: left;
+}
+.mingxing .right{
+	margin-left: 41%;
+	line-height: 1.2rem;
+}
+.mingxing .right a{
+	text-decoration: none;
+	color: #000;
+}
+.mingxing .right .myp{
+	margin: 5px;
+}
+.mingxing {
+	overflow: hidden;
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.content .chakan{
+	margin: 10px;
+    text-align: center;
+}
+.content .chakan a{
+	    color: #888888;
+}

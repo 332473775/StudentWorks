@@ -1,0 +1,426 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-25 15:10:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-09 14:00:41
+*/
+html {
+    font-size: 65%;
+}
+
+.box {
+
+    width: 100%;
+
+
+    /* height:1000px; */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);  
+}
+
+.box .head {
+    height: 50px;
+    width: 100%;
+    background: #1768BB;
+}
+
+.box .head img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 6px;
+}
+
+.box .head ._head {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.box .head .logo {
+    float: left;
+}
+
+.box .head .logo span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2rem;
+    color: #FFFFFF;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.box .head ._head .house {
+    float: right;
+}
+.box .head ._head .house a{
+	width:100%;
+	height:100%;
+}
+.box .center {
+    height: 50px;
+    width: 100%;
+    background: #EDEDED;
+}
+
+.box .center ul {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+}
+
+.box .center ul li {
+    float: left;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+}
+.box .center ul li:nth-child(1){
+	
+border-bottom: 3px solid #0F3AF9;
+}
+
+
+/* .box .center ul li:nth-child(2){
+	border-bottom: 3px solid #0F3AF9;
+} */
+
+.box .center ul li:hover {
+
+    border-bottom: 3px solid #0F3AF9;
+}
+.box .center ul li a{
+	color:#1B1919;
+}
+
+
+/* 横线部分 */
+
+.box .allxian {
+    width: 100%;
+    height: 50px;
+}
+
+.box .allxian ._allxian {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box .allxian .xian {
+    display: inline-block;
+
+    width: 18%;
+    border-bottom: 1px solid #999797;
+    position: relative;
+    bottom: 0.4rem;
+}
+
+.box .allxian span:nth-child(2) {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.box .tab{
+    width:90%;
+    height:26rem;
+    background:#BDDDFF;
+  margin:0 auto;
+  padding-top:2%;
+
+
+}
+.box .tab table{
+	margin:0 auto;
+  width:96%;
+  height:96%;
+  
+  
+  
+
+}
+.box .tab table tr td{
+
+	/*border:1px solid red;*/
+	text-align:center;
+	font-size:1.3rem;
+}
+.box .tab table tr:nth-child(even){
+
+	background:#FFFFFF;
+
+}
+.box .tab table tr:nth-child(odd){
+
+	background:#D8EBFF;
+}
+.box .tab table tr:nth-child(1){
+
+	background:#707070;
+	color:#FFFFFF;
+}
+.box .promise{
+   height:6rem;
+   width:90%;
+   margin:0 auto;
+  color:#595959;
+  
+  font-size:1.3rem;
+
+}
+.box .promise ul li{
+	text-align:center;
+}
+.box .mates{
+  height:14rem;
+  width:94%;
+  border-radius:10px;
+ margin: 0 auto;
+ background:#F2F8FF;
+}
+.box .mates ul{
+	width:100%;
+	height:100%;
+
+}
+
+.box .mates ul li{
+	height:50%;
+	width:100%;
+}
+.box .mates ul li dl{
+	width:100%;
+	height:100%;
+
+}
+.box .mates ul li dl dd{
+ width:24%;
+ height:100%;
+ float: left;
+ margin-left:0.2rem;
+ 
+ 
+}
+.box .mates ul li dl dd img{
+	width:100%;
+	height:100%;
+}
+.box .mates ul li dl dd span{
+	display:inline-block;
+	width:3.5rem;
+	height:3.5rem;
+	margin-top:20%;
+	margin-left:2%;
+}
+.box .mates ul li dl dd a{
+	display: inline-block;
+	color:#1A1919;
+	height:100%;
+	font-size:1.3rem;
+	vertical-align:top;
+	line-height:7rem;
+}
+
+.box .mates ul li dl dd .you{
+
+  width:100%;
+  height:2rem;
+  border-radius:2rem;
+  background:#EBEBEE;
+  text-align: center;
+
+  line-height:2rem;
+ color:#FF5B00;
+ margin-top:0.5rem;
+}
+.box .mates ul li dl dd:nth-child(2){
+
+	padding-top:1rem;
+	text-align:center;
+	font-size:1.3rem;
+	
+} 
+.box .mates ul li dl dd:nth-child(3){
+
+ padding-top: 1.6rem;
+
+}
+.box .mates ul li dl dd:nth-child(4){
+	 padding-top: 2rem;
+}
+.box .mates ul li dl dd div{
+	font-size:1.3rem;
+	text-align: center;
+}
+.box .job{
+	height:4rem;
+	width:90%;
+	margin: 0 auto;
+	font-size:1.3rem;
+	text-align: center;
+	padding-top:1rem;
+    color: #595959;
+
+}
+.box .fuzhu{
+ width:90%;
+ height:24rem;
+ margin:0 auto; 
+
+
+
+}
+.box .fuzhu img{
+	width:100%;
+	height:100%;
+}
+.box .star{
+ width:90%;
+ margin:0 auto;
+ height:48rem;
+ background:#F8FDFD;
+    padding-top: 0.5rem;
+
+
+}
+.box .star ul{
+	width:100%;
+	height:100%;
+}
+.box .star ul li{
+	height:9rem;
+	width:100%;
+	background:#F8FDFD;
+	margin-top:0.5rem;
+	
+}
+.box .star ul li:nth-child(1){
+	border-bottom:1px solid #BDB9B9;
+}
+.box .star ul li:nth-child(4){
+	border-bottom:1px solid #BDB9B9;
+}
+.box .star ul li .star-left{
+   width:32%;
+   height:90%;
+   float: left;
+   
+   margin-left:1rem;
+
+
+
+}
+.box .star ul li .star-right{
+float: left;
+margin-left:1rem;
+}
+.box .star ul li .star-right dl dd{
+  margin-top:0.5rem;
+  font-size:1.3rem;
+
+}
+.box .star ul li .star-right dl dd:nth-child(1){
+
+ margin-top:0;
+
+}
+.box .star ul li .star-right dl dd:nth-child(2){
+
+ color:red;
+
+}
+.box .star ul li .star-left img{
+	width:100%;
+	height:100%;
+} 
+
+.box .more{
+	height:3rem;
+	width:90%;
+	margin: 0 auto;
+	font-size:1.2rem;
+	text-align: center;
+
+	line-height:3rem;
+}
+
+
+
+ .box .footer{
+	height:5rem;
+	width:100%;
+	background:#353A3F;
+	
+	
+}
+.box .footer .footer1{
+	width:50%;
+	height:100%;
+	margin:0 auto;
+	padding-top:2.5%;
+	text-align:center;
+}
+.box .footer .footer1 span a{
+	color: #FFFFFF;
+	font-size:1.2rem;
+	margin-left:1rem;
+	
+}
+.box .footer .footer1 span{
+	color: #FFFFFF;
+	font-size:1.2rem;
+}
+/*响应式*/
+@media screen and (max-width:320px ) {
+	
+.box .mates ul li dl dd span{
+	width:2.5rem;
+	height:2.5rem;
+	margin-top:2rem;
+}
+
+.box .mates ul li dl dd a {
+	font-size:1.1rem;
+}
+.box .mates ul li dl dd:nth-child(2){
+
+	padding-top:2rem;
+	text-align:center;
+	font-size:1.1rem;
+	
+} 
+.box .mates ul li dl dd div{
+	font-size:1.1rem;
+}
+.box .job{
+	font-size:1.2rem;
+}
+}
+
+@media screen and (max-width:360px ) {
+.box .mates ul li dl dd a{
+
+	font-size:1.1rem;
+}	
+}
+
+@media screen and (max-width:375px) {
+	
+}
+
+@media screen and (max-width:414px) {
+	
+}

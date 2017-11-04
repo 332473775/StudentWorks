@@ -1,0 +1,41 @@
+.content{
+	margin: 10px;
+}
+
+.content .touxiang img{
+	max-width: 210px;
+	max-height:210px;
+}
+
+.tuwen1 .touxiang{
+	float: left;
+}
+.xiao .touxiang{
+	float: right;
+}
+.tuwen1 .right, .xiao .left{
+	text-indent: 2rem;
+	line-height: 1.4rem;
+	font-size: 0.8rem;
+}
+.tuwen1 .right{
+		margin-left: 65%;
+}
+.tuwen1, .xiao{
+	overflow: hidden;
+	margin: 10px;
+}
+
+.content .chui p{
+	text-indent: 2rem;
+}
+.content .chui li img{
+	max-width: 90%;
+	max-height: 90%;
+}
+.content .chui li{
+	float: left;
+	width: 50%;
+	list-style: none;
+	margin-top: 13px;
+}

@@ -1,0 +1,145 @@
+@charset"UTF-8";
+
+.zi{
+	width: 90%;
+	margin: 0px auto;
+
+	font-size: 0.8rem;
+	line-height: 1.4rem;
+	text-indent:2em;
+}
+
+.content .shang ul{	
+	width: 90%;
+	margin: 0px auto;
+}
+.content .shang li img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
+.content .shang li{
+	list-style: none;
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+.content .shang li a{
+	text-decoration: none;
+	color: #000;
+}
+.shang li div{
+	width: 63px;
+	height: 63px;
+	border: 1px solid #5F5F5F;
+	border-radius: 100%;
+	margin: 0px auto;
+	line-height: 6.9rem;
+	margin-bottom:5px; 
+}
+.shang li p{
+	font-size: 0.8rem;
+}
+
+.content .shang ul{
+	overflow:hidden;
+}
+
+.shang .sjiaoxing{
+	height: 190px;
+	background: url(../images/pyramid.jpg)55px 0px no-repeat ;
+	background-size: 190px 160px; 
+	position: relative;
+}
+.sjiaoxing .tiao_1, .sjiaoxing .tiao_2, .sjiaoxing .tiao_3, .sjiaoxing .tiao_4{
+	position: absolute;
+	font-size: 0.8rem;
+}
+.sjiaoxing span{
+	color: #747272;
+}
+.sjiaoxing .tiao_1{
+	color: #93D381;
+	top: 10px;
+	left: 27px;
+}
+.sjiaoxing .tiao_2{
+	color: #F7CD5E;
+	top: 49px;
+	left: 27px;
+}
+.sjiaoxing .tiao_3{
+	color: #66CDFD;
+	top: 85px;
+	left: 27px;
+}
+.sjiaoxing .tiao_4{
+	color: #F38C81;
+	top: 126px;
+	left: 27px;
+}
+
+.sjiaoxing .zi_1, .sjiaoxing .zi_2, .sjiaoxing .zi_3, .sjiaoxing .zi_4, .sjiaoxing .zi_5{
+	position: absolute;
+	font-size: 0.7rem;
+}
+.sjiaoxing .zi_1{
+	top: 10px;
+	right: 27px;
+}
+.sjiaoxing .zi_2{
+	top: 49px;
+	right: 27px;
+}
+.sjiaoxing .zi_3{
+	top: 85px;
+	right: 27px;
+}
+.sjiaoxing .zi_4{
+	top: 126px;
+	right: 27px;
+}
+.sjiaoxing .zi_5{
+	top: 165px;
+	left: 35%;
+}
+
+
+
+.xia .jie_1, .xia .jie_2, .xia .jie_3, .xia .jie_4, .xia .jie_5, .xia .jie_6{
+	width: 90%;
+	margin: 0px auto;
+	border-radius: 5px;
+	padding-left: 20px;
+	font-size: 0.8rem;
+}
+.xia .jie_1{
+	background: #F2F2F2;
+	line-height: 2rem;
+}
+.xia .jie_2{
+	background: #F4F4F4;
+	line-height: 1.2rem;
+	margin-bottom:10px; 
+}
+.xia .jie_3{
+	background: #F2F2F2;
+	line-height: 2rem;
+	margin-bottom:10px; 
+}
+.xia .jie_4{
+	background: #F2F2F2;
+	line-height: 2rem;
+	margin-bottom:10px; 
+}
+.xia .jie_5{
+	background: #F2F2F2;
+	line-height: 2rem;
+	margin-bottom:10px; 
+}
+.xia .jie_6{
+	background: #F2F2F2;
+	line-height: 2rem;
+	margin-bottom:10px; 
+}

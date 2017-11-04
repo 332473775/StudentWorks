@@ -1,0 +1,139 @@
+.fiel1{width: 87%;}
+.leg1{left: 25%;width: 50%;}
+.fiel2{width: 75%;}
+.leg2{left: 33%;width: 30%;}
+.fiel3{width: 70%;}
+.leg3{left: 30%;width: 40%;}
+.table{
+	border: 5px solid #BDDDFF;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+.table thead th,.table tbody td{
+	text-align: center;
+	border: 1px solid #C8E3FF;
+}
+.table thead th{
+	
+	background: #707070;
+	color: #E4E4E4;
+}
+.table tbody td{
+	padding:3%;
+}
+.legcss2{
+	width: 25%;
+	left: 36%;
+}
+.con1{margin-bottom: 5%;}
+.con2{margin-bottom: 2%;}
+.head_img{
+	/*position: relative;*/
+	background: #F2F8FF;
+	border-radius: 15px;
+	/*#F2F8FF*/
+}
+.head_img1{position: relative;}
+.head_img1 img{
+	width: 4.5rem;
+	margin-right: 2%;
+	padding: 5% 0%;
+}
+.head_img1>p{
+	position: absolute;
+	top: 45%;
+	left: 15%;
+	
+}
+.fan{
+	position: absolute;
+	width: 25%;
+	top: 35%;
+	left: 28%;
+	text-align: center;
+	display: inline-grid;
+}
+.fantwospan{
+	display: inline-block;
+	width: 100%;
+	
+	margin-top: 10%;
+	background: #ccc;
+	border-radius: 33px;
+}
+.fan2{
+	position: absolute;
+	display: inline-block;
+	right: 28%;
+	top: 45%;
+}
+.fan2>span{
+	display: block;
+	margin-top: -38%;
+}
+.fan3{
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	text-align: center;
+}
+.fan3>span{
+	display: block;
+	margin-top: -20%;
+}
+.con{margin: 3% 0%;}
+.start ul li{
+	padding: 5% 0%;
+	border: 1px solid #ccc;
+	border-width: 0px 0px 1px 0px;
+}
+.banner_jiuye,.banner_jiuye>img{width: 100%;}
+.people_1{position: relative;}
+.people_1>img{width: 40%;}
+.people_1>div{
+	display: inline-block;
+	position: absolute;
+	left: 45%;
+}
+.start{position: relative;}
+.mony{color:red;}
+.more-delta{
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+/*	width: 10px;
+	height: 10px;
+	position: absolute;
+	bottom: 0%;
+	left: 50%;*/
+/*	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid red;*/
+	/*background: url(./images/ui_up.jpg) no-repeat;*/
+}
+.more{margin: 3% 0% 3% 49%;position: relative;}
+/*.more1{
+	width: 10px;
+	height: 10px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid red;	
+}*/
+.more1-css{
+	position: absolute;
+	left: -10%;
+	top: -5%;
+}
+
+@media screen and (max-width: 360px){
+	.fiel1{width: 90%;}
+	.leg1{width: 55%;}
+}
+@media screen and (max-width: 320px){
+	body{font-size: 10px;}
+	.fiel1{width: 100%;}
+	.leg1{width: 65%;left: 18%;}
+	.fie2{width: 80%;}
+	.leg2{width: 47%;left: 27%;top: 10%;}
+}

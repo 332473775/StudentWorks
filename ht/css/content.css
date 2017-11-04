@@ -1,0 +1,45 @@
+.content{
+	width: 95%;
+	margin:auto;
+}
+
+form{
+	position: relative;
+	width: 90%;
+	margin:auto;
+	padding: 5%;
+	/*text-align: center;*/
+}
+
+fieldset{
+	width: 60%;
+	margin: 0 auto;
+	border-color: #BABABA;
+	border-width: 0px 0px 1px 0px;
+}
+.fieldset{
+	
+	margin: 0 auto;
+	border: 1px solid  #BABABA;
+}
+legend{
+	position: absolute;
+	left: 37%;
+	top: 20%;
+	padding: 0px 10px;
+	background: #fff;
+}
+.legend{
+	display: inline-block;
+	/*left: 25%;*/
+	/*width: 50%;*/
+	top: 16%;
+	
+	text-align: center;
+}
+.script{
+    display: block;
+    width: 30px;
+    height: 10px;
+    float: left;	
+}

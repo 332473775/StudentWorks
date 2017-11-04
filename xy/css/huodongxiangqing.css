@@ -1,0 +1,144 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+html{
+	font-size: 16px;
+}
+.herder{
+	line-height: 3rem;
+	background:#1768bb;
+}
+.logo{
+	display: inline-block;
+}
+.logo img{
+	vertical-align: middle;
+}
+.text{
+	display: inline-block;
+}
+.home{
+	float: right;
+	margin-right :0.5rem;
+}
+.home img{
+	vertical-align: middle;
+}
+.nav{
+	height: 2rem;
+	background: #ededed;
+}
+.nav ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+.nav ul li{
+	box-sizing: border-box;
+	text-align: center;
+	height: 2rem;
+	float: left;
+	width: 20%;
+	line-height: 2rem;
+	cursor: pointer;
+}
+.nav ul li:hover{
+	border-bottom: 2px solid #1768bb;
+}
+a{
+	color: black;
+	text-decoration:none
+}
+.center{
+	width: 90%;
+	margin-left: 5%;
+}
+.center .text{
+	width: 78%;
+	margin-left: 11%;
+}
+.left1{
+	display: inline-block;
+	width: 40%;
+	text-indent: 2em;
+	float: left;
+}
+.right1{
+	display: inline-block;
+	width: 55%;
+	margin-left: 5%;
+}
+.right2{
+	display: inline-block;
+	width: 40%;
+	text-indent: 2em;
+	float: right;
+}
+.top2{
+	margin-top: 5%;
+}
+.left2{
+	display: inline-block;
+	width: 55%;
+	margin-right: 5%;
+}
+.text2{
+	margin-top: 5%;
+	text-indent: 2em;
+}
+.photo{
+	margin-top: 5%;
+}
+.photo1{
+	width: 47.5%;
+	float: left;
+	display: inline-block;
+}
+.photo2{
+	margin-left: 5%;
+	width: 47.5%;
+	display: inline-block;
+}
+.photo3{
+	width: 47.5%;
+	margin-top: 5%;
+	float: left;
+	display: inline-block;
+}
+.photo4{
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 47.5%;
+	display: inline-block;
+}
+.bottom{
+	margin-top: 5%;
+	height: 5rem;
+	background:#353a3f;
+	text-align: center;
+	color: #fff;
+}
+.small{
+	margin-top: 1.25rem;
+	display: inline-block;
+}
+fieldset{	
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	border-color: #ccc;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+}
+legend{
+	background:#fff;
+	width: 11rem;
+}
+@media(max-width:411px)
+{
+	html{
+		font-size: 12px;
+	}
+}

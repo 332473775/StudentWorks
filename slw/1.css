@@ -1,0 +1,400 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-16 19:42:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-02 15:55:55
+*/
+
+html{
+	font-size:65%;
+}
+ .box{
+
+     	width:100%;
+     	
+     	
+     	/* height:1000px; */
+     	
+     }
+  *{
+  	padding:0;
+  	margin: 0;
+  	list-style: none;
+     box-sizing:border-box;
+     text-decoration:none; 
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  .box .head{
+    height:50px;
+    width: 100%;
+    background:#1768BB;
+  }
+  .box .head img{
+  	width:3rem;
+  	height:3rem;
+  	margin-top:6px;
+    
+
+
+  }
+  .box .head ._head{
+   width:90%;
+   height:50px;
+   margin:0 auto;
+
+
+
+  }
+  .box .head .logo{
+  	float:left;
+  }
+ .box .head .logo span{
+ 	display: inline-block;
+ 	height:50px;
+ 	line-height:50px;
+ 	font-size:2rem;
+ 	color:#FFFFFF;
+ 	vertical-align:top;
+ 	margin-left:10px;
+ 	
+ }
+ .box .head ._head .house{
+  float:right;
+
+ }
+
+ .box .center{
+	height: 50px;
+	width: 100%;
+	background: #EDEDED;
+}
+
+.box .center ul{
+	height: 50px;
+	width: 100%;
+    position:absolute;
+}
+.box .center ul li{
+	float:left;
+	text-align: center;
+	font-size: 1.6rem;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+}
+/* .box .center ul li:nth-child(2){
+	border-bottom: 3px solid #0F3AF9;
+} */
+
+.box .center ul li:hover{
+
+border-bottom: 3px solid #0F3AF9;
+
+}
+
+/* 横线部分 */
+
+
+.box .allxian{
+  width:100%;
+  height:50px;
+ 
+
+
+}
+.box .allxian ._allxian{
+	width:90%;
+	height:50px;
+	margin:0  auto;
+	text-align:center;
+}
+.box .allxian .xian{
+	display: inline-block;
+	
+    width:20%;
+    border-bottom:1px solid #999797 ;
+    position: relative;
+    bottom:0.4rem;
+
+
+}
+.box .allxian span:nth-child(2){
+     display:inline-block;
+      height:50px;
+      line-height:50px;
+	font-size:1.6rem;
+	margin-left:0.5rem;
+	margin-right:0.5rem;
+	
+
+}
+
+.box .tell {
+
+    width: 100%;
+    height: 32rem;
+    background: #F2F8FF;
+    padding-top:1rem;
+}
+
+.box .tell img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+/*.box .tell span:nth-of-type(1) {
+	position: relative;
+	right:0;
+	top:0;
+   
+}*/
+.box .tell img{
+	width:6rem;
+	height:6rem;
+	float:left;
+}
+
+.box .tell .uid {
+    width: 90%;
+    height: 6rem;
+
+   margin:2rem auto 0; 
+    border: 1px solid #F00E0E;
+    border-top-left-radius:3rem;
+    border-bottom-right-radius:3rem;
+    
+}
+.box .tell .uid:nth-of-type(1){
+	margin-top:0;
+}
+.box .tell .uid:nth-of-type(2){
+border: 1px solid #77ADE7;
+	
+}.box .tell .uid:nth-of-type(3){
+border: 1px solid #B2CE49;
+	
+}.box .tell .uid:nth-of-type(4){
+border: 1px solid #FFA964;
+
+}
+.box .tell .uid li{
+   font-size:1.2rem;
+   margin-top:0.5rem;
+margin-left:1rem;
+
+
+}
+.box .tell .uid ul li:nth-child(1){
+  padding-left:6rem;
+
+}.box .tell .uid ul li:nth-child(3){
+  padding-left:6rem;
+
+}
+
+.box .tell .uid ul {
+   margin-top:0.5rem;
+
+}
+.box .tell .uid .ui_xian{
+   display:inline-block;
+   
+  width:70%;
+  border-bottom:1px solid #FF7F90;
+  
+
+
+}.box .tell .uid .ui_xian2{
+   display:inline-block;
+   
+  width:70%;
+  border-bottom:1px solid #77ADE7;
+  
+
+
+}.box .tell .uid .ui_xian3{
+   display:inline-block;
+   
+  width:70%;
+  border-bottom:1px solid #B2CE49;
+  
+
+
+}
+.box .tell .uid .ui_xian4{
+   display:inline-block;
+   
+  width:70%;
+  border-bottom:1px solid #FFA964;
+  
+
+
+}
+
+/*驱动教学*/
+.box .tree{
+	width:100%;
+	height:320px;
+	/*background-color:#F2F8FF;*/
+	/*padding-top:5%;*/
+	
+}
+
+.box .tree .trees{
+    width:100%;
+	height:33rem;
+	position: relative;
+	}
+.box .tree .trees img{
+	width:100%;
+	height:80%;
+}
+.box .tree .trees .items{
+  width:12rem;
+  height:2.2rem;
+  background:#238AF3;
+  border-radius:0.5rem;
+  position: absolute;
+  top:3rem;
+  left:0.8rem;
+  text-align:center;
+  line-height:2rem;
+  color: #FFFFFF;
+  font-size:1.4rem;
+
+}
+.box .tree .trees .sanjiao{
+  width:10rem;
+  height:30px;
+  background:#238AF3;
+  
+  position: absolute;
+top:9.4rem;
+left:2rem;
+color: #FFFFFF;
+text-align:center;
+line-height:26px;
+font-size:1.4rem;
+}
+.box .tree .trees .allsanjiao{
+  width:0;
+  height:0;
+  border-top:16px solid transparent; 
+  border-bottom:16px solid transparent; 
+  border-right:16px solid #238AF3;
+ position: absolute;
+ top:112px;
+ left:10px;
+
+}
+.box .tree .trees .detail1{
+  width:14rem;
+  height:14rem;
+  position: absolute;
+  top:160px;
+  left:10px;
+  font-size:1.3rem;
+
+}
+.box .tree .trees .all_ability{
+   width:10.6rem;
+   height:3rem;
+   position: absolute;
+   top:30px;
+   right:0.5rem;
+
+}
+.box .tree .trees .all_ability .ability{
+	float: left;
+  width:9.4rem;
+  height:2.4rem;
+  background:#238AF3;
+  font-size:1.4rem;
+  line-height:2.4rem;
+  text-align: center;
+  color:#FFFFFF;
+
+
+}
+.box .tree .trees .all_ability .sanjiao1{
+  float: right;
+  width:0;
+  height:0;
+  border-top:14px solid transparent; 
+  border-bottom:14px solid transparent; 
+  border-left:14px solid #238AF3;
+ 
+
+} 
+.box .tree .trees .detail2{
+  width:14rem;
+  height:14rem;
+  position: absolute;
+  top:60px;
+  right:0.5rem;
+  font-size:1.3rem;
+
+}
+.box .tree .trees .all_ability2{
+   width:10.6rem;
+   height:3rem;
+   position: absolute;
+   top:182px;
+   right:0.5rem;
+
+}
+.box .tree .trees .all_ability2 .ability2{
+	float: left;
+  width:9.4rem;
+  height:2.4rem;
+  background:#238AF3;
+  font-size:1.4rem;
+  line-height:2.4rem;
+  text-align: center;
+  color:#FFFFFF;
+
+
+}
+.box .tree .trees .all_ability2 .sanjiao2{
+  float: right;
+  width:0;
+  height:0;
+  border-top:14px solid transparent; 
+  border-bottom:14px solid transparent; 
+  border-left:14px solid #238AF3;
+ 
+
+} 
+.box .tree .trees .detail3{
+  width:14rem;
+  height:9rem;
+  position: absolute;
+  top:210px;
+  right:0.5rem;
+  font-size:1.3rem;
+
+}
+.box .footer{
+	height:5rem;
+	width:100%;
+	background:#353A3F;
+	
+}
+.box .footer .footer1{
+	width:50%;
+	height:100%;
+	margin:0 auto;
+	padding-top:2.5%;
+	text-align:center;
+}
+.box .footer .footer1 span a{
+	color: #FFFFFF;
+	font-size:1.2rem;
+	margin-left:1rem;
+	
+}
+.box .footer .footer1 span{
+	color: #FFFFFF;
+	font-size:1.2rem;
+}

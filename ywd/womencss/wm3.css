@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-20 15:19:35
+ * @version $Id$
+ */
+.content{
+	width: 100%;
+}
+
+.article3 ul li{
+	display: inline-block;
+	width: 80%;
+	word-break:break-all;/*打碎所有文字*/
+}
+.article3 .ul1{
+	left: 10px;
+	width: 50%;
+}
+.article3 .ul2{
+	right: 0px;
+	width: 50%;
+}
+.article3 ul li{
+	font-size: 10px;
+	padding-left: 22px;
+}

@@ -1,0 +1,124 @@
+
+.banner_gongsi{
+	width: 100%;
+	/*background: red;*/
+}
+.banner_gongsi img{
+	width: 100%;
+}
+form{
+	position: relative;
+	width: 90%;
+	padding: 5%;
+	text-align: center;
+}
+fieldset{
+	width: 60%;
+	margin: 0 auto;
+	border-color: #BABABA;
+	border-width: 0px 0px 1px 0px;
+}
+legend{
+	position: absolute;
+	left: 37%;
+	top: 20%;
+	padding: 0px 10px;
+	background: #fff;
+}
+.cop{
+	background: #F0F0F0;
+}
+.cop_text{
+	width: 95%;
+	margin: 0 auto;
+
+}
+.script{
+	display: block;
+	width: 30px;
+	height: 10px;
+	float: left;
+}
+.add-icon1{
+	width: 90%;
+	margin: auto;
+}
+.add-icon1 .bngs{
+	background: #EDEDED;
+	margin-bottom: 5%;
+	width: 100%;
+	display: inline-block;
+}
+.bngs span{
+	display: inline-block;
+	margin: 5px;
+}
+.bngs img{
+	float: right;
+	width: 10%;
+}
+.none{
+	background: #F4F4F4;
+}
+.disnone{
+	display: none;
+}
+.call{
+	width: 100%;
+	background: #238AF3;
+}
+.call_four{
+	width: 95%;
+	margin:0 auto;
+}
+.call_four ul li{
+/*	display: inline-block;
+	color: #fff;*/
+	width: 100%;
+}
+span{
+	display: inline-block;
+	font-size: 10px;
+}
+.marleft{
+	margin-left: 10%;
+}
+.call_four li img{
+	width: 10%;
+}
+@media screen and (max-width: 360px){
+	span{
+		display: inline;
+	}
+	.call_four li img{
+		width: 5%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.marleft2{
+		margin-left: 11%;
+	}
+	body,span{
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 414px){
+	.marleft2{
+		margin-left: 10%;
+	}
+	body,span{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 375px){
+	.marleft2{
+		margin-left: 10%;
+	}
+/*	.marleft4{
+		margin-left: 11%;
+	}*/	
+	body,span{
+		font-size: 10px;
+	}
+}

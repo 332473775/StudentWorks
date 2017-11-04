@@ -1,0 +1,171 @@
+html{
+	font-size: 16px;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*标题栏开始*/
+.header{
+	background: #1768bb;
+	display: flex;
+	justify-content: space-between;
+}
+.myhead{
+	display: flex;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	
+}
+.myhead img{
+	align-self: center;
+	height: 2rem;
+	padding-right: 1.5rem;
+}
+.myhead span{
+	/*justify-content: center;*/
+	align-self: center;
+	font-size: 1.5rem;
+    color: #fff;
+}
+.header_end{
+	display: flex;
+}
+.header_end img{
+	height: 2rem;
+	padding-right: 1rem;
+	align-self: center;
+	justify-content: space-between;
+}
+/*标题栏结束*/
+/*导航栏开始*/
+.Nav ul{
+    display: flex;
+    background: #ededed;
+}
+.Nav ul li{
+	width: 20%;
+	height: 2.5rem;
+	text-align: center;
+	padding: 0.5rem;
+	box-sizing: border-box;
+    color: #000;
+    font-size: 1.2rem;
+}
+.Nav ul .classrooms{
+	box-sizing: border-box;
+	color: #1768BB;
+	border-bottom: 2px solid #1768BB;
+}
+.Nav ul li a{
+	color: #000;
+	text-decoration: none;
+}
+/*导航栏结束*/
+/*内容开始*/
+.content .one{
+	margin-top: 0rem;
+}
+.content .titles{
+	width: 90%;
+	height: 2rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
+.content .titles span{
+	float: left;
+    background: #018fff;
+    display: block;
+    text-align: center;
+    width: 6rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #ffffff;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+ }  
+ .content .titles span:last-child{
+    background: #ffffff;
+    color: #018fff;
+    border-bottom: 1px #018FFF solid;
+    box-sizing: border-box;
+ }
+ .clear{
+ 	clear: both;
+ }    
+.content .one .content_main{
+	margin-top: -1rem;
+}
+.content .one .content_main div{
+	border-bottom: 1px #0f0f0f solid;
+    width: 90%;
+    margin: 0 auto;
+	height: 10rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.content .one .content_main img{
+	position: absolute;
+	top: 2.3rem;
+	width: 8rem;
+	left: 0rem;
+}
+.content .one .content_main h3{
+	width: 60%;
+	height: 5.3rem;
+	margin-top:2.5rem;
+	box-sizing: border-box;
+	font-size: 1rem;
+	position: absolute;
+	right: 0rem;
+}
+.content .one .content_main p{
+	width: 60%;
+	height: 5.3rem;
+	margin-top:4rem;
+	box-sizing: border-box;
+	font-size: 1rem;
+	position: absolute;
+	right: 0rem;
+	font-size: 0.9rem;
+}
+.content .one .content_main span{
+	width: 90%;
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+	display: block;
+	margin: 0 auto;
+}
+.hiddens{
+	display: none;
+}
+/*尾部开始*/
+.dibu{
+	height: 6.25rem;
+	width: 100%;
+	background: #353a3f;
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 1.5rem;
+	box-sizing: border-box;
+}
+.dibu ul{
+	width: 100%;
+	height: 2rem;
+	padding-left: 4%;
+	box-sizing: border-box;
+}
+.dibu ul li{
+	float: left;
+	width: 30%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 0 auto;
+	box-sizing: border-box;
+	border-right: 1px solid #fff;
+}
+.dibu ul li:last-child{
+	border:none;
+}
+/*尾部结束*/

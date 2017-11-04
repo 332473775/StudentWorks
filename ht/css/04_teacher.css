@@ -1,0 +1,57 @@
+.tech{
+	margin: 3% 0%;
+}
+.tech_img{
+	width: 36%;
+	display: inline-block;
+}
+.tech_img img{
+	width: 100%;
+}
+legend,
+.tech_text,
+.territory{
+	font-size: 18px;
+}
+
+.tech_text{
+	width: 62%;
+	float: right;
+
+}
+.territory{
+	background: #F2F8FF;
+}
+.territory div{
+	margin: 5px;
+}
+.Up,.Down{
+	display: inline-block;
+}
+.Down{
+	float: right;
+}
+.bngc{
+	color: #ccc;
+}
+@media screen and (max-width: 375px) {
+	legend,
+	.tech_text,
+	.territory{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 360px) {
+	legend,
+	.tech_text,
+	.territory{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 320px) {
+	legend,
+	.tech_text,
+	.territory{
+		font-size: 14px;
+	}
+}

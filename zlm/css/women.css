@@ -1,0 +1,55 @@
+.content .datu{
+	max-height: 100%;
+	max-width: 100%;
+}
+.jianjie .beijing .zi{
+	text-indent: 2rem;
+	padding:10px;
+}
+.youshi{
+	margin: 10px;
+}
+
+.youshi .beijing .zi_2{
+	padding: 5px;
+	/*background: ;*/
+	background:#E9E9E9 url(../images/women/icon_jia.png) no-repeat right; 
+	background-size: contain;
+}
+
+.youshi .beijing .zi_3{
+	padding: 5px;
+}
+
+
+
+.content .women li{
+	list-style: none;
+    margin: 5px 2px 5px 2px;
+    float: left;
+    font-size: 0.7rem;
+    padding-left: 6%;
+    color: #fff;
+}
+
+.content .women .li_1{
+	background: url(../images/women/icon_tel.png) no-repeat left;
+	background-size: contain;
+}
+.content .women .li_2{
+	background: url(../images/women/icon_qq.png) no-repeat left;
+	background-size: contain;
+	margin-left: 12%;
+}
+.content .women .li_3{
+	background: url(../images/women/icon_ima.png) no-repeat left;
+	background-size: contain;
+}
+.content .women .li_4{
+	background: url(../images/women/icon_home.png) no-repeat left;
+	background-size: contain;
+}
+.content .women{
+	overflow: hidden;
+	background: #238AF3;
+}

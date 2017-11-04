@@ -1,0 +1,46 @@
+.girl{
+	margin: 5%;
+}
+.mingx{
+	/*margin: 5%;*/
+	width: 40%;
+}
+.mingx img{
+	width: 100%;
+}
+.script{
+    display: block;
+    width: 30px;
+    height: 10px;
+    float: left;	
+}
+.textbng{background: #F7FDFF;margin-bottom: 10px;}
+.name p{margin-bottom: 4px;}
+.Up,.Down,.mingx,.name{display: inline-block;}
+.Down{float: right;}
+.bngc{color: #ccc;}
+@media screen and (max-width: 414px) {
+	body{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 412px) {
+	body{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 375px) {
+	body{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 360px) {
+	body{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 320px) {
+	body{
+		font-size: 14px;
+	}
+}

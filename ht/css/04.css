@@ -1,0 +1,162 @@
+
+/************************/
+.content{
+	position: relative;
+}
+.tec{
+	width: 80%;
+	margin: 5% auto;
+	border: 1px solid #BABABA;
+}
+.tech_top1{
+	top: -2%;
+}
+.tech_top2{
+	top: -5%;
+}
+.content .tech{
+	position: absolute;
+	padding:8px;
+	left: 38%;
+	background: #fff;
+}
+.script{
+	display: block;
+	width: 30px;
+	height: 10px;
+	float: left;
+}
+.script_text{
+	width: 95%;
+	margin: auto;
+	font-family: "楷体";
+	background: #F4F8FB;
+}
+.pho{
+	width: 95%;
+	margin:15px auto;
+
+}
+.pho>ul li{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+.pho>ul li img{
+	width: 100%;
+	padding: 1px;
+	border: 1px solid #6c6c6c;
+	border-radius: 100%;
+}
+.pho>ul li span{
+	display: block;
+	font-size: 13px;
+	text-align: center;
+}
+.perdonnel{
+	position: relative;
+}
+.pyramid{
+	width: 50%;
+}
+.pyramid img{
+	width: 100%;
+	margin: 1.5rem;
+}
+.pass{
+	position: absolute;
+	top: 92%;
+	left: 22%;
+	font-size:16px;
+}
+.con{
+	position: absolute;
+	font-size: 10px;
+}
+.width1{
+	width: 0.7rem;
+	margin-top: 20%;
+}
+.width2{
+  width: 2.2rem;
+  margin-top: 10%;
+}
+.width3{
+  width: 3.2rem;
+  margin-top: 10%;
+}
+.width4{
+  width: 4.2rem;
+  margin-top: 8%;
+}
+
+.width{
+	display: block;
+	height: 1px;
+	float: right;
+	background: #747272;
+}
+.con1{top: 48%;}
+.con1 i{color: #94D382}
+.con2{top: 60%;}
+.con2 i{color: #F7CD5F;}
+.con3{top: 70%;}
+.con3 i{color: #67CDFD;}
+.con4{top: 80%;}
+.con4 i{color: #F48C81;}
+.right{right: 5%;}
+
+.conwidth{
+	display: block;
+	height: 1px;
+	float: left;
+	background: #747272;
+}
+.conwidth1{
+	margin-top: 5%;
+	width: 2.2rem;
+}
+.conwidth2{
+	margin-top: 5%;
+	width: 3.5rem;
+}
+.conwidth3{
+	margin-top: 3%;
+	width: 2.5rem;
+}
+.conwidth4{
+	margin-top: 4%;
+	width: 1.6rem;
+}
+.teacher{
+	position: absolute;
+	width: 95%;
+}
+/*.add-icon1{
+	width: 95%;
+	margin: auto;
+}
+.top{
+	margin-top: 10%;
+}
+.add-icon1 .bngs{
+	background: #EDEDED;
+	margin-bottom: 5%;
+	width: 95%;
+	display: inline-block;
+}
+.bngs span{
+	display: inline-block;
+	margin: 5px;
+}
+.bngs img{
+	float: right;
+	width: 10%;
+}
+.none{
+	background: #F4F4F4;
+}
+.disnone{
+	display: none;
+}*/
+/************************/

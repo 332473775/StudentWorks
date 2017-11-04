@@ -1,0 +1,28 @@
+.add-icon1{
+	width: 95%;
+	margin: auto;
+}
+.top{
+	margin-top: 10%;
+}
+.add-icon1 .bngs{
+	background: #EDEDED;
+	margin-bottom: 5%;
+	width: 95%;
+	display: inline-block;
+}
+.bngs span{
+	display: inline-block;
+	margin: 5px;
+}
+.bngs img{
+	float: right;
+	width: 10%;
+}
+.none{
+	background: #F4F4F4;
+}
+.disnone{
+	display: none;
+}
+

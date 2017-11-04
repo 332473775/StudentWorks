@@ -1,0 +1,114 @@
+
+.content{
+	width: 95%;
+	margin:auto;
+}
+
+form{
+	position: relative;
+	width: 90%;
+	padding: 5%;
+	text-align: center;
+}
+fieldset{
+	width: 60%;
+	margin: 0 auto;
+	border-color: #BABABA;
+	border-width: 0px 0px 1px 0px;
+}
+legend{
+	position: absolute;
+	left: 37%;
+	top: 20%;
+	padding: 0px 10px;
+	background: #fff;
+}
+.page1,
+.page2,
+.page3,
+.img4{
+	margin-bottom: 10px;
+}
+.page1 img,
+.page2 img{
+	width: 59%;
+}
+.script{
+	display: block;
+	width: 30px;
+	height: 10px;
+	float: left;
+}
+.page1_text,
+.page3_text，
+.page4{
+	font-size: 14px;	
+}
+.page1_text{
+	width: 36%;
+	display: inline-block;
+}
+
+.rig{
+	float: right;
+}
+.marbom{
+	margin-bottom: 5%;
+}
+.marleft{
+	margin-left: 8%;
+}
+.page3{
+	/*margin-bottom: 20px;*/
+}
+.img4 li{
+	width: 45%;
+	display: inline-block;
+}
+.img4 li img{
+	width: 100%;
+}
+.page4{
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 414px){
+	.page1_text,
+	.page3_text，
+	.page4{
+		font-size: 16px;	
+	}
+}
+/*@media screen and (max-width: 768px){
+	legend{
+
+		padding: 0% 3%;
+	}
+	body,
+	.page1_text,
+	.page3_text，
+	.page4{
+		font-size: 30px;	
+	}
+}*/
+@media screen and (max-width: 375px){
+	.page1_text,
+	.page3_text，
+	.page4{
+		font-size: 15px;	
+	}
+}
+@media screen and (max-width: 360px){
+	.page1_text,
+	.page3_text，
+	.page4{
+		font-size: 14px;	
+	}
+}
+@media screen and (max-width: 320px){
+	.page1_text,
+	.page3_text，
+	.page4{
+		font-size: 13px;	
+	}
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8"
+html{
+	font-size:16px;
+}
+a{
+	text-decoration: none;
+}
+#nav ul li:nth-child(4) a{
+		color:#0953B7;
+		border-bottom:3px solid #1768ba;
+	}
+
+
+#content{
+	width:90%;
+	margin:0 auto;}
+	
+	.title li{
+		float: left;
+		text-align: center;
+		margin:1rem 0 0;
+	}
+	.title li a{
+		display: block;
+		width:5rem;
+		padding:0.5rem 0rem;
+		font-size: 0.75rem;
+		color:#3489FF;
+		border-bottom:2px solid #3489FF;
+	}
+	.title li:nth-child(2) a{
+		color:#fff;
+		background-color: #0C6DFF;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.title li a:hover{
+		background-color: #0C6DFF;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		color:#fff;
+	}
+	
+	.banner{
+		width:100%;
+		height:auto;
+	}
+	.sentiment{
+		margin:0.8rem 0;
+		padding:0.6rem 0.5rem;
+		border:1px solid #E2E2E2;
+		position: relative;
+	}
+	.sentiment p{
+		text-indent: 2rem;
+		line-height: 1.2rem;
+		text-align: left;
+		font-size: 0.75rem;
+		color:#585858;
+	}
+	.sentiment_title{
+		position: absolute;
+		top:-0.9rem;
+		left:-0.4rem;
+		width:5.3rem;
+		color:#FFECED;
+		text-align: center;
+		font-size: 0.875rem;
+		height:2rem;
+		line-height: 1.7rem;
+		background:url(../images/classroom/tag.png) no-repeat left top;
+		background-size: 5.5rem 2rem;
+	}
+
+
+

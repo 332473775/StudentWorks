@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<link href="" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="women.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width:376px) and (max-width:420px)"  href="womencss/wm1.css"><!-- 苹果6plus,n6p,n5x -->
+<link rel="stylesheet" type="text/css" media="screen and (min-width:375px) and (max-width:380px)"  href="womencss/wm2.css"><!-- 苹果6 -->
+<link rel="stylesheet" type="text/css" media="screen and (min-width:310px) and (max-width:321px)"  href="womencss/wm3.css"><!-- 苹果5 -->
+<link rel="stylesheet" type="text/css" media="screen and (min-width:360px) and (max-width:370px)"  href="womencss/wm4.css"><!-- glaaxy5 -->
+<link rel="stylesheet" type="text/css" media="screen and (min-width:768px) and (max-width:769px)"  href="womencss/wm5.css"><!-- iPad -->
+</head>
+<body>
+    <div class="content">
+		<div class="head">
+			<span class="logo"></span>
+			<span class="company">迅科教育</span>
+			<a href="shouye.html"><span class="homepage"></span></a>
+		</div>
+		<div class="nav">
+			<ul>
+				<li class="job"><a href="jiuye.html">就业</a></li>
+				<li class="subject"><a href="kecheng.html">课程</a></li>
+				<li class="teacher"><a href="shizi.html">师资</a></li>
+				<li class="learn"><a href="ketang.html">课堂</a></li>
+				<li class="us"><a href="women.html">我们</a></li>
+			</ul>		
+		</div>
+		<div class="main">
+			<div class="banner"></div>
+			<article class="article1">
+				<hr class="hr1">
+				<span>公司简介</span>
+				<small>福州市迅科教育科技有限公司是福建省职业化人才教育的领导者，公司拥有300多家IT名企业合作单位，全省首创带薪外包项目实训模式，引进企业带薪真实项目，以项目为导向，注重学员解决能力的培养。同时提供专业的就业指导，职业素养，职业发展综合建议;多维度能力派样，从专业技能，职业技能多方面培养，企业全真笔试，面试。</small>
+			</article>	
+			<article class="article2">
+				<hr class="hr2">
+				<span>我们的优势</span>
+				<ul>
+				<li><p>企业定制人才培训</p><small>所有讲师均有大型企业相关领域八以上从业经验，能力突出，具备带队开发能力</small></li>
+
+				<li><p>企业外包项目实战</p><small>所有讲师均有大型企业相关领域八以上从业经验，能力突出，具备带队开发能力</small></li>
+
+				<li><p>企业精英工程师手把手教学</p><small>所有讲师均有大型企业相关领域八以上从业经验，能力突出，具备带队开发能力</small></li>
+
+				<li><p>VIP学习服务</p><small>所有讲师均有大型企业相关领域八以上从业经验，能力突出，具备带队开发能力</small></li>
+
+				<li><p>职场发展跟踪服务</p><small>所有讲师均有大型企业相关领域八以上从业经验，能力突出，具备带队开发能力</small></li>
+			</ul>
+			</article>	
+			<article class="article3">
+				<hr class="hr3">
+				<span>联系我们</span>
+				<ul class="ul1">
+					<li>电话：13205000105</li>
+					<li>邮箱：211335689@qq.com</li>
+				</ul>
+				<ul class="ul2">
+					<li>QQ:211335689</li>
+					<li>网址：www.xunketech.com</li>
+				</ul>
+			</article>
+		</div>
+		<div class="footer">
+			<span><a href="#">福州市迅科教育科技有限公司</a></span>
+			<span><a href="#">企业介绍</a>|<a href="#">业务范围</a>|<a href="#">联系我们</a></span>
+		</div>
+	</div>	
+			<script type="text/javascript" src="jquery-1.9.1.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$(".article2 p").each(function(index){
+			$(this).click(function(){
+				$(".article2 small:eq("+index+")").toggleClass("show").siblings().removeClass("show");
+			});
+		});
+	})
+	</script>
+</body>
+</html>

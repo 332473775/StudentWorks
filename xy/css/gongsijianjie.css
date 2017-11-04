@@ -1,0 +1,141 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+html{
+	font-size: 16px;
+}
+fieldset{	
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	border-color: #ccc;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+}
+legend{
+	background:#fff;
+	width: 11rem;
+}
+.herder{
+	line-height: 3rem;
+	background:#1768bb;
+}
+.logo{
+	display: inline-block;
+}
+.logo img{
+	vertical-align: middle;
+}
+.text{
+	display: inline-block;
+}
+.home{
+	float: right;
+	margin-right :0.5rem;
+}
+.home img{
+	vertical-align: middle;
+}
+.nav{
+	height: 2rem;
+	background: #ededed;
+}
+.nav ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+.nav ul li{
+	box-sizing: border-box;
+	text-align: center;
+	height: 2rem;
+	float: left;
+	width: 20%;
+	line-height: 2rem;
+	cursor: pointer;
+}
+.nav ul li:hover{
+	border-bottom: 2px solid #1768bb;
+}
+a{
+	color: black;
+	text-decoration:none
+}
+.center{
+	width: 90%;
+	margin-left: 5%;
+}
+.center .text{
+	width: 78%;
+	margin-left: 11%;
+}
+.text2{
+	text-indent: 2em;
+	background:#f4f8fb;
+}
+.title2{
+	line-height: 3rem;
+}
+.headline{
+	margin-top: 2%;
+	background:#e9e9e9;
+	color:#454545;
+}
+.headline h4{
+	margin-left: 5%;
+	display: inline-block;
+}
+.headline .title3{
+	padding-left: 5%;
+	background: #f4f4f4;
+	display: none;
+}
+.headline .box{
+	height: 3rem;
+	float: right;
+}
+.blue{
+	display: inline-block;
+	width: 100%;
+	background: #238af3;
+	margin-bottom:-3px; 
+}
+.blue .logo{
+	color: #fff;
+	width: 50%;
+	line-height: 3rem;
+	float: left;
+	display: inline-block;
+}
+
+.bottom{
+	background:#353a3f;
+	text-align: center;
+	color: #fff;
+}
+.bottom .small{
+	padding-top: 5%;
+	padding-bottom: 5%; 
+}
+@media(max-width:440px)
+{
+	html{
+		font-size: 12px;
+	}
+
+		.blue3 span{
+			/*font-size: 12px;
+			display: block;
+			float: left;	
+			-webkit-transform:scale(0.5);*/
+
+
+			 /*font-size:12px; 
+			 display: block;
+            -webkit-transform-origin-x: 0;
+            -webkit-transform: scale(0.50);
+            float: left;*/
+	}
+}

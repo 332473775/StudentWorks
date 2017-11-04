@@ -1,0 +1,37 @@
+
+.content{
+	margin: 10px
+}
+.content .mingxing img{
+	max-width: 120px;
+	max-height:160px;
+}
+
+.mingxing .touxiang{
+	float: left;
+}
+.mingxing .right{
+	margin-left: 41%;
+	line-height: 1.4rem;
+}
+
+
+
+.content .zi{
+	    text-indent: 2em;
+	    margin-bottom: 5%;
+}
+
+.content .shang{
+	float: left;
+	 margin-top: 10px;   
+	color: #A5A5A5;
+}
+.content .xia{
+	float: right;
+	margin-top::10px;
+}
+
+.content {
+	overflow: hidden;
+}

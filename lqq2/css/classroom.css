@@ -1,0 +1,78 @@
+@charset "UTF-8"
+html{
+	font-size:16px;
+}
+a{
+	text-decoration: none;
+}
+
+
+#nav ul li:nth-child(4) a{
+	color:#0953B7;
+	border-bottom:3px solid #1768ba;
+}
+
+
+#content{
+	width:90%;
+	text-align: center;
+	margin:0 auto;}
+	
+	.title li{
+		float: left;
+		text-align: center;
+		margin:1rem 0 0;
+	}
+	.title li a{
+		display: block;
+		width:5rem;
+		padding:0.5rem 0rem;
+		color:#3489FF;
+		font-size: 0.75rem;
+		border-bottom:2px solid #3489FF;
+	}
+	.title li:nth-child(1) a{
+		color:#fff;
+		background-color: #0C6DFF;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.title li a:hover{
+		background-color: #0C6DFF;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		color:#fff;
+	}
+	.students_activities div{
+		border-bottom: 1px solid #ddd;
+	}
+	.students_activities div img{
+		width:9rem;
+		height:auto;
+		margin:1rem 0.8rem 1rem 0;
+	}
+	.students_activities div ul{
+		margin:1rem 0 0.5rem 0;
+		line-height: 1rem;
+		color:#707070;
+
+	}
+	.students_activities div li{
+		text-align: left;
+		font-size: 0.75rem;
+		white-space: pre-wrap;
+		width: 11rem;
+	}
+	.students_activities div li:nth-child(1){
+		font-size: 0.9375rem;
+		line-height: 1.5rem;
+	}
+
+	.more{
+		display: block;
+		margin:1rem 0;
+		font-size: 0.875rem;
+		color:#989898;
+
+	}
+	

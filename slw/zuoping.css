@@ -1,0 +1,205 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-23 00:50:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-09 14:02:59
+*/
+html{
+	font-size:65%;
+}
+ .box{
+
+     	width:100%;
+     	
+     	
+     	/* height:1000px; */
+     	
+     }
+  *{
+  	padding:0;
+  	margin: 0;
+  	list-style: none;
+     box-sizing:border-box;
+     text-decoration:none; 
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  a{
+    color:#161616;
+  }
+  .box .head{
+    height:50px;
+    width: 100%;
+    background:#1768BB;
+  }
+  .box .head img{
+  	width:3rem;
+  	height:3rem;
+  	margin-top:6px;
+    
+
+
+  }
+  .box .head ._head{
+   width:90%;
+   height:50px;
+   margin:0 auto;
+
+
+
+  }
+  .box .head .logo{
+  	float:left;
+  }
+ .box .head .logo span{
+ 	display: inline-block;
+ 	height:50px;
+ 	line-height:50px;
+ 	font-size:2rem;
+ 	color:#FFFFFF;
+ 	vertical-align:top;
+ 	margin-left:10px;
+ 	
+ }
+
+ .box .head ._head .house{
+  float:right;
+
+ }
+ .box .center{
+	height: 50px;
+	width: 100%;
+	background: #EDEDED;
+}
+
+.box .center ul{
+	height: 50px;
+	width: 100%;
+    position:absolute;
+}
+.box .center ul li{
+	float:left;
+	text-align: center;
+	font-size: 1.6rem;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+}
+.box .center ul li:nth-child(4){
+  
+border-bottom: 3px solid #0F3AF9;
+}
+/* .box .center ul li:nth-child(2){
+	border-bottom: 3px solid #0F3AF9;
+} */
+
+.box .center ul li:hover{
+
+border-bottom: 3px solid #0F3AF9;
+
+}
+.box .allxian{
+  width:100%;
+  height:50px;
+ 
+
+
+}
+.box .allxian ._allxian{
+	width:60%;
+	height:50px;
+	margin:0  auto;
+	text-align: center;
+}
+.box .allxian .xian{
+	display: inline-block;
+	
+    width:25%;
+    border-bottom:1px solid #999797;
+    position: relative;
+    bottom:0.4rem;
+
+
+}
+.box .allxian span:nth-child(2){
+     display:inline-block;
+      height:50px;
+      line-height:50px;
+	font-size:1.6rem;
+ margin-left: 0.5rem;
+    margin-right: 0.5rem;
+	
+
+}
+
+.box .design{
+  height:30rem;
+  width:90%;
+  margin:0 auto;
+
+
+}
+.box .design img {
+	width:100%;
+	height:100%;
+}
+.box .want{
+  width:90%;
+  height:18rem; 
+  
+  margin:2rem auto 0;
+  border-top:1px solid #999797;
+  border-left:1px solid #999797;
+  position: relative;  
+}
+.box .want .tag{
+  width: 9rem;
+  height:3rem;
+  background:url(迅科公司移动端平台切图/作品详情/tag.png) no-repeat;
+  position: absolute;
+  background-size: 100% 100%;
+  top:-1.2rem;
+  left:-0.4rem;
+  font-size:1.6rem;
+  color:#FFFFFF;
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+
+}
+.box .want .tag-word{
+
+ font-size:1.4rem;
+ color:#2E2E2E;
+ font-family:"微软雅黑";
+ padding-left:1rem;
+
+
+}
+.box .footer{
+	height:5rem;
+	width:100%;
+	background:#353A3F;
+	margin-top: 1rem;
+	
+}
+.box .footer .footer1{
+	width:50%;
+	height:100%;
+	margin:0 auto;
+	padding-top:2.5%;
+	text-align:center;
+}
+.box .footer .footer1 span a{
+	color: #FFFFFF;
+	font-size:1.2rem;
+	margin-left:1rem;
+	
+}
+.box .footer .footer1 span{
+	color: #FFFFFF;
+	font-size:1.2rem;
+}
+@media screen and (max-width:320px){
+	.box .design {
+		height:26rem;
+	}
+}

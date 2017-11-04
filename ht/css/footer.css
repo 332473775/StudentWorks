@@ -1,0 +1,25 @@
+.footer{
+	background: #353A3F;
+	line-height: 1.5rem;
+}
+a{
+	text-decoration: none;
+	
+}
+a,.copname,.coll{
+	color: #fff;
+}
+.copname{
+	padding-top: 10px;
+}
+.coll,.copname{
+	text-align: center;
+}
+@media screen and (max-width: 1024px){
+	.copname{
+		padding: 2% 0%;
+	}
+	.coll,.copname{
+		padding-bottom: 2%;
+	}
+}
